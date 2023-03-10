@@ -1,0 +1,89 @@
+[changelog]
+header = """
+# Changelog
+
+"""
+body = """
+{% if version %}\
+	# [{{ version | trim_start_matches(pat="v") }}]\
+	{% if previous %}\
+		{% if previous.version %}\
+			(https://github.com/tj-actions/changed-files/compare/{{ previous.version }}...{{ version }})\
+		{% else %}\
+			(https://github.com/tj-actions/changed-files/tree/{{ version }})\
+		{% endif %}\
+	{% endif %} \
+	- ({{ timestamp | date(format="%Y-%m-%d") }})
+{% else %}\
+	# [unreleased]
+{% endif %}\
+{% for group, commits in commits | group_by(attribute="group") %}
+	## {{ group | upper_first }}
+	{% for commit in commits %}
+		- {% if commit.scope %}\
+			**{{commit.scope}}:** \
+		  {% endif %}\
+			{{ commit.message | upper_first }} ([{{ commit.id | truncate(length=7, end="") }}](https://github.com/tj-actions/changed-files/commit/{{ commit.id }}))\
+		{% if commit.breaking %}\
+			{% for breakingChange in commit.footers %}\
+				\n{% raw %}  {% endraw %}- **{{ breakingChange.token }}{{ breakingChange.separator }}** {{ breakingChange.value }}\
+			{% endfor %}\
+		{% endif %}\
+	{% endfor %}
+{% endfor %}\n
+"""
+trim = true
+
+[git]
+conventional_commits = true
+filter_unconventional = false
+commit_preprocessors = [
+    { pattern = '\((\w+\s)?#([0-9]+)\)', replace = "([#${2}](https://github.com/tj-actions/changed-files/issues/${2}))"},
+]
+commit_filters = [
+    { pattern = "^Merge", invert_match = true },
+]
+commit_parsers = [
+    { message = "^feat", group = "<!-- 0 -->🚀 Features"},
+    { message = "^fix", group = "<!-- 1 -->🐛 Bug Fixes"},
+    { message = "^doc", group = "<!-- 3 -->📚 Documentation"},
+    { message = "^perf", group = "<!-- 4 -->⚡ Performance"},
+    { message = "^refactor", group = "<!-- 2 -->🚜 Refactor"},
+    { message = "^update", group = "<!-- 2 -->🚜 Refactor"},
+    { message = "^style", group = "<!-- 5 -->🎨 Styling"},
+    { message = "^test", group = "<!-- 6 -->🧪 Testing"},
+    { message = "^chore\\(release\\): prepare for", skip = true},
+    { message = "^chore", group = "<!-- 7 -->⚙️ Miscellaneous Tasks"},
+    { body = ".*security", group = "<!-- 8 -->🛡️ Security"},
+    { message = "^upgrade", group = "<!-- 9 -->⬆️ Upgrades"},
+    { message = "^downgrade", group = "<!-- 10 -->⬇️ Downgrades"},
+    { message = "^revert", group = "<!-- 11 -->⏪ Reverts"},
+    { message = "^merge", group = "<!-- 12 -->🔀 Merges"},
+    { message = "^release", group = "<!-- 13 -->🔖 Releases"},
+    { message = "^bump", group = "<!-- 14 -->🔖 Releases"},
+    { message = "^initial", group = "<!-- 15 -->🎉 Initial Commit"},
+    { message = "^init", group = "<!-- 15 -->🎉 Initial Commit"},
+    { message = "^add", group = "<!-- 16 -->➕ Add"},
+    { message = "^remove", group = "<!-- 17 -->➖ Remove"},
+    { message = "^delete", group = "<!-- 17 -->➖ Remove"},
+    { message = "^rename", group = "<!-- 18 -->📝 Rename"},
+    { message = "^move", group = "<!-- 19 -->📂 Move"},
+    { message = "^copy", group = "<!-- 20 -->📋 Copy"},
+    { message = "^fixup", group = "<!-- 21 -->🔧 Fixup"},
+    { message = "^wip", group = "<!-- 22 -->🚧 WIP"},
+    { message = "^rework", group = "<!-- 23 -->🔨 Rework"},
+    { message = "^cleanup", group = "<!-- 24 -->🧹 Cleanup"},
+    { message = "^format", group = "<!-- 25 -->🎨 Format"},
+    { message = "^style", group = "<!-- 25 -->🎨 Format"},
+    { message = "^lint", group = "<!-- 25 -->🎨 Format"},
+    { message = "^update", group = "<!-- 26 -->🔄 Update"},
+    { message = "^upgrade", group = "<!-- 27 -->⬆️ Upgrade"},
+    { message = "^downgrade", group = "<!-- 28 -->⬇️ Downgrade"},
+    { message = "^pin", group = "<!-- 29 -->📌 Pin"},
+    { message = "^unpin", group = "<!-- 30 -->📍 Unpin"},
+    { message = "^revert", group = "<!-- 10 -->⏪ Reverts"},
+    { message = "^build", group = "<!-- 11 -->👷 CI/CD"},
+]
+tag_pattern = "v[0-9]*"
+skip_tags = "v0.1.0-rc.1"
+top_order = false
