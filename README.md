@@ -36,7 +36,7 @@ If you feel generous and want to show some extra appreciation:
 
 ## Features
 
-*   TODO
+*   Utilizes the [`cliff-template.toml`](./cliff-template.toml) and dynamically replaces values via github context object and runs git-cliff
 
 ## Credits
 
