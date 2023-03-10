@@ -23,7 +23,7 @@ body = """
 		- {% if commit.scope %}\
 			**{{commit.scope}}:** \
 		  {% endif %}\
-			{{ commit.message | upper_first }} ([{{ commit.id | truncate(length=7, end="") }}](https://github.com/tj-actions/changed-files/commit/{{ commit.id }}))\
+			{{ commit.message | upper_first }} ([{{ commit.id | truncate(length=7, end="") }}](https://github.com/tj-actions/changed-files/commit/{{ commit.id }}))  - ({{ commit.author.name }})\
 		{% if commit.breaking %}\
 			{% for breakingChange in commit.footers %}\
 				\n{% raw %}  {% endraw %}- **{{ breakingChange.token }}{{ breakingChange.separator }}** {{ breakingChange.value }}\
@@ -52,7 +52,6 @@ commit_parsers = [
     { message = "^update", group = "<!-- 2 -->🚜 Refactor"},
     { message = "^style", group = "<!-- 5 -->🎨 Styling"},
     { message = "^test", group = "<!-- 6 -->🧪 Testing"},
-    { message = "^chore\\(release\\): prepare for", skip = true},
     { message = "^chore", group = "<!-- 7 -->⚙️ Miscellaneous Tasks"},
     { body = ".*security", group = "<!-- 8 -->🛡️ Security"},
     { message = "^upgrade", group = "<!-- 9 -->⬆️ Upgrades"},
