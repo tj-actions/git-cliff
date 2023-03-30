@@ -1,11 +1,15 @@
-name: Docker Action
-description:  Template Docker action
+name: Git Cliff action
+description:  Generate Changelog with a customized template 
 author: tj-actions
 inputs:
-  token:
-    description: 'GITHUB_TOKEN or a Repo scoped PAT'
-    required: true
-    default: ${{ github.token }}
+  args:
+    description: "Extra args passed directly to [git-cliff](https://github.com/orhun/git-cliff#command-line-arguments)"
+    required: false
+    default: "--verbose"
+  output:
+    description: "Output file"
+    required: false
+    default: "HISTORY.md"
 
 runs:
   using: 'composite'
@@ -17,7 +21,15 @@ runs:
       env:
         # INPUT_<VARIABLE_NAME> is not available in Composite run steps
         # https://docs.github.com/en/actions/creating-actions/metadata-syntax-for-github-actions#example-specifying-inputs
-        INPUT_TOKEN: ${{ inputs.token }}
+        INPUT_REPOSITORY_URL: ${{ github.server_url }}/${{ github.repository }}
+
+    - name: Generate a changelog
+      uses: orhun/git-cliff-action@v2
+      with:
+        config: cliff.toml
+        args: ${{ inputs.args }}
+      env:
+        OUTPUT: ${{ inputs.output }}
 branding:
   icon: check-square
   color: white
