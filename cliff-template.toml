@@ -8,9 +8,9 @@ body = """
 	# [{{ version | trim_start_matches(pat="v") }}]\
 	{% if previous %}\
 		{% if previous.version %}\
-			(https://github.com/tj-actions/changed-files/compare/{{ previous.version }}...{{ version }})\
+			(REPOSITORY_URL/compare/{{ previous.version }}...{{ version }})\
 		{% else %}\
-			(https://github.com/tj-actions/changed-files/tree/{{ version }})\
+			(REPOSITORY_URL/tree/{{ version }})\
 		{% endif %}\
 	{% endif %} \
 	- ({{ timestamp | date(format="%Y-%m-%d") }})
@@ -23,7 +23,7 @@ body = """
 		- {% if commit.scope %}\
 			**{{commit.scope}}:** \
 		  {% endif %}\
-			{{ commit.message | upper_first }} ([{{ commit.id | truncate(length=7, end="") }}](https://github.com/tj-actions/changed-files/commit/{{ commit.id }}))  - ({{ commit.author.name }})\
+			{{ commit.message | upper_first }} ([{{ commit.id | truncate(length=7, end="") }}](REPOSITORY_URL/commit/{{ commit.id }}))  - ({{ commit.author.name }})\
 		{% if commit.breaking %}\
 			{% for breakingChange in commit.footers %}\
 				\n{% raw %}  {% endraw %}- **{{ breakingChange.token }}{{ breakingChange.separator }}** {{ breakingChange.value }}\
