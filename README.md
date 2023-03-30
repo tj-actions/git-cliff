@@ -18,9 +18,10 @@ Template Docker action
 
 <!-- AUTO-DOC-INPUT:START - Do not remove or modify this section -->
 
-| INPUT |  TYPE  | REQUIRED |         DEFAULT         |            DESCRIPTION            |
-|-------|--------|----------|-------------------------|-----------------------------------|
-| token | string |   true   | `"${{ github.token }}"` | GITHUB\_TOKEN or a Repo scoped PAT |
+| INPUT  |  TYPE  | REQUIRED |    DEFAULT     |                                             DESCRIPTION                                              |
+|--------|--------|----------|----------------|------------------------------------------------------------------------------------------------------|
+|  args  | string |  false   | `"--verbose"`  | Extra args passed directly to [git-cliff](https://github.com/orhun/git-cliff#command-line-arguments) |
+| output | string |  false   | `"HISTORY.md"` |                                             Output file                                              |
 
 <!-- AUTO-DOC-INPUT:END -->
 
