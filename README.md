@@ -4,7 +4,7 @@
 
 ## git-cliff
 
-Generate changelogs for your project without having to manage extra configs.
+Generate changelogs for your project with a custom cliff.toml.
 
 ## Features
 
