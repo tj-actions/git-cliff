@@ -12,8 +12,12 @@ Template Docker action
 
 ```yaml
 ...
+    runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
+      - name: Checkout
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
       - name: Docker Action
         uses: tj-actions/git-cliff@v1
 ```
