@@ -19,7 +19,7 @@ jobs:
       )
     runs-on: ${{ matrix.platform }}
     concurrency:
-      group: ${{ github.workflow }}-${{ github.ref }}
+      group: ${{ github.workflow }}-${{ github.ref }}-${{ matrix.platform }}
       cancel-in-progress: true
     strategy:
       fail-fast: false
