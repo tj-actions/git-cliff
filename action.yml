@@ -36,7 +36,7 @@ runs:
       run: |
         bash $GITHUB_ACTION_PATH/cleanup.sh
       env:
-        INPUT_OUPUT_PATH: ${{ steps.git-cliff.outputs.output_path }}
+        INPUT_OUTPUT_PATH: ${{ steps.git-cliff.outputs.output_path }}
 branding:
   icon: check-square
   color: white
