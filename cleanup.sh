@@ -2,4 +2,6 @@
 
 set -euo pipefail
 
-rm -rf "$INPUT_OUTPUT_PATH"
+if [[ -n "$INPUT_OUTPUT_PATH" ]]; then
+  rm -rf "$INPUT_OUTPUT_PATH"
+fi
