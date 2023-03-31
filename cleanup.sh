@@ -2,4 +2,4 @@
 
 set -euo pipefail
 
-rm -rf "$INPUTS_OUTPUT_PATH"
+rm -rf "$INPUT_OUTPUT_PATH"
