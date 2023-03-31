@@ -2,8 +2,7 @@
 
 set -euo pipefail
 
-TMP_DIR=$(mktemp -d)
-OUTPUT_PATH="$TMP_DIR/cliff.toml"
+OUTPUT_PATH="cliff.toml"
 
 sed 's@REPOSITORY_URL@'"$INPUT_REPOSITORY_URL"'@g' cliff-template.toml > "$OUTPUT_PATH"
 
