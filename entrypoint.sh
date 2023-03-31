@@ -1,3 +1,7 @@
 #!/usr/bin/env bash
 
-set -e
+set -euo pipefail
+
+
+sed 's@REPOSITORY_URL@'"$INPUT_REPOSITORY_URL"'@g' cliff-template.toml > cliff.toml
+
