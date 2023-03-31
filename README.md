@@ -18,7 +18,7 @@ Generate changelogs for your project with a custom cliff.toml.
         uses: actions/checkout@v3
         with:
           fetch-depth: 0
-      - name: Docker Action
+      - name: Run git-cliff
         uses: tj-actions/git-cliff@v1
 ```
 
