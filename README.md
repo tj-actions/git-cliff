@@ -10,6 +10,8 @@ Generate changelogs for your project with a custom cliff.toml.
 
 *   Utilizes the [`cliff-template.toml`](./cliff-template.toml) and dynamically replaces values via github context object and runs git-cliff
 
+## Usage
+
 ```yaml
 ...
     runs-on: ubuntu-latest
