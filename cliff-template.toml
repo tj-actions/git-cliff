@@ -40,9 +40,6 @@ filter_unconventional = false
 commit_preprocessors = [
     { pattern = '\((\w+\s)?#([0-9]+)\)', replace = "([#${2}](https://github.com/tj-actions/changed-files/issues/${2}))"},
 ]
-commit_filters = [
-    { pattern = "^Merge", invert_match = true },
-]
 commit_parsers = [
     { message = "^feat", group = "<!-- 0 -->🚀 Features"},
     { message = "^fix", group = "<!-- 1 -->🐛 Bug Fixes"},
@@ -84,5 +81,5 @@ commit_parsers = [
     { message = "^build", group = "<!-- 11 -->👷 CI/CD"},
 ]
 tag_pattern = "v[0-9]*"
-skip_tags = "v0.1.0-rc.1"
 top_order = false
+sort_commits = "newest"
