@@ -18,6 +18,9 @@ jobs:
         github.actor != 'github-actions[bot]'
       )
     runs-on: ${{ matrix.platform }}
+    concurrency:
+      group: ${{ github.workflow }}-${{ github.ref }}
+      cancel-in-progress: true
     strategy:
       fail-fast: false
       matrix:
