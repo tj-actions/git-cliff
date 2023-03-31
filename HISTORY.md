@@ -299,4 +299,5 @@
 - Updated HISTORY.md. ([ada5250](https://github.com/tj-actions/git-cliff/commit/ada52501a853e77b0f2c2e6c6bb36a4aee8c64bd))  - (github-actions[bot])
 - Updated HISTORY.md. ([b6ac488](https://github.com/tj-actions/git-cliff/commit/b6ac4889cf7bebff2fa020f6f5baedd7f44cd55f))  - (github-actions[bot])
 - Updated HISTORY.md. ([78766d9](https://github.com/tj-actions/git-cliff/commit/78766d9e8616ad11a61bcff9e0ffd304c2c9b0dd))  - (github-actions[bot])
+- Updated HISTORY.md. ([58ad9f8](https://github.com/tj-actions/git-cliff/commit/58ad9f84114d341a42e30e518cb236e234892b84))  - (github-actions[bot])
 
