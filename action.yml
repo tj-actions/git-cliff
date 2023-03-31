@@ -32,6 +32,7 @@ runs:
         OUTPUT: ${{ inputs.output }}
         
     - name: Cleanup
+      shell: bash
       run: |
         bash $GITHUB_ACTION_PATH/cleanup.sh
       env:
