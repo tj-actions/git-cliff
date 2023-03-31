@@ -4,7 +4,7 @@
 
 ## git-cliff
 
-Template Docker action
+Generate changelogs for your project without having to manage extra configs.
 
 ## Features
 
