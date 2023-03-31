@@ -20,10 +20,8 @@ jobs:
           pattern: '${{ github.repository }}@'
           only_major: true
           paths: README.md
-      - name: Generate CHANGELOG
-        uses: tj-actions/github-changelog-generator@v1.18
-        with:
-          output: 'HISTORY.md'
+      - name: Run git-cliff
+        uses: ./
       - name: Create Pull Request
         uses: peter-evans/create-pull-request@v4
         with:
