@@ -1,5 +1,20 @@
 # Changelog
 
+# [1.2.2](https://github.com/tj-actions/git-cliff/compare/v1.2.1...v1.2.2) - (2023-04-01)
+
+## <!-- 1 -->🐛 Bug Fixes
+
+- Incorrect PR link ([#21](https://github.com/tj-actions/git-cliff/issues/21)) ([f63be28](https://github.com/tj-actions/git-cliff/commit/f63be2819d061f22ad05c8542aafaacd5c182e34))  - (Tonye Jack)
+
+## <!-- 12 -->📝 Other
+
+- PR [#20](https://github.com/tj-actions/git-cliff/pull/20): to v1.2.1 ([9b2d09e](https://github.com/tj-actions/git-cliff/commit/9b2d09ef761c470a705a1969cb5bbcf611da48a7))  - (repo-ranger[bot])
+
+## <!-- 9 -->⬆️ Upgrades
+
+- Upgraded from v1.2.0 -> v1.2.1
+ ([4e62f10](https://github.com/tj-actions/git-cliff/commit/4e62f100a9554b3cbfbf6f2e1e41f49c0b0021f5))  - (jackton1)
+
 # [1.2.1](https://github.com/tj-actions/git-cliff/compare/v1.2.0...v1.2.1) - (2023-04-01)
 
 ## <!-- 1 -->🐛 Bug Fixes
@@ -8,7 +23,7 @@
 
 ## <!-- 12 -->📝 Other
 
-- PR [#19](https://github.com/orhun/git-cliff/pull/19): patterns matching commits ([fe3217f](https://github.com/tj-actions/git-cliff/commit/fe3217f6c9f9009dd5f66d0ae95d3c3acefcc817))  - (repo-ranger[bot])
+- PR [#19](https://github.com/tj-actions/git-cliff/pull/19): patterns matching commits ([fe3217f](https://github.com/tj-actions/git-cliff/commit/fe3217f6c9f9009dd5f66d0ae95d3c3acefcc817))  - (repo-ranger[bot])
 
 # [1.2.0](https://github.com/tj-actions/git-cliff/compare/v1.1.0...v1.2.0) - (2023-04-01)
 
@@ -18,10 +33,10 @@
 
 ## <!-- 12 -->📝 Other
 
-- PR [#18](https://github.com/orhun/git-cliff/pull/18): replace Merge PR patterns with links to the PR ([0f20e85](https://github.com/tj-actions/git-cliff/commit/0f20e85a61f66e40e907db5249e726771027244a))  - (repo-ranger[bot])
-- PR [#17](https://github.com/orhun/git-cliff/pull/17): README.md ([9ee3083](https://github.com/tj-actions/git-cliff/commit/9ee3083cf32115696cf3aeb25fb4c3ad2a1e990d))  - (repo-ranger[bot])
-- PR [#16](https://github.com/orhun/git-cliff/pull/16): update credits ([2947cf6](https://github.com/tj-actions/git-cliff/commit/2947cf6ca0625898324d2c0250bdf8bdbc5d530d))  - (repo-ranger[bot])
-- PR [#15](https://github.com/orhun/git-cliff/pull/15): to v1.1.0 ([15f5df0](https://github.com/tj-actions/git-cliff/commit/15f5df01bb34ddfa75119b8e9d64717102d3cdfc))  - (repo-ranger[bot])
+- PR [#18](https://github.com/tj-actions/git-cliff/pull/18): replace Merge PR patterns with links to the PR ([0f20e85](https://github.com/tj-actions/git-cliff/commit/0f20e85a61f66e40e907db5249e726771027244a))  - (repo-ranger[bot])
+- PR [#17](https://github.com/tj-actions/git-cliff/pull/17): README.md ([9ee3083](https://github.com/tj-actions/git-cliff/commit/9ee3083cf32115696cf3aeb25fb4c3ad2a1e990d))  - (repo-ranger[bot])
+- PR [#16](https://github.com/tj-actions/git-cliff/pull/16): update credits ([2947cf6](https://github.com/tj-actions/git-cliff/commit/2947cf6ca0625898324d2c0250bdf8bdbc5d530d))  - (repo-ranger[bot])
+- PR [#15](https://github.com/tj-actions/git-cliff/pull/15): to v1.1.0 ([15f5df0](https://github.com/tj-actions/git-cliff/commit/15f5df01bb34ddfa75119b8e9d64717102d3cdfc))  - (repo-ranger[bot])
 
 ## <!-- 12 -->🔀 Merges
 
@@ -50,8 +65,8 @@
 
 ## <!-- 12 -->📝 Other
 
-- PR [#14](https://github.com/orhun/git-cliff/pull/14): update cliff template ([994e401](https://github.com/tj-actions/git-cliff/commit/994e40185a9ca2af39a63c5712390b71ebd71b10))  - (repo-ranger[bot])
-- PR [#13](https://github.com/orhun/git-cliff/pull/13): upgraded to v1.0.3 ([ee83c9c](https://github.com/tj-actions/git-cliff/commit/ee83c9cbe06f367e09cb15f5dec28bd77a287826))  - (repo-ranger[bot])
+- PR [#14](https://github.com/tj-actions/git-cliff/pull/14): update cliff template ([994e401](https://github.com/tj-actions/git-cliff/commit/994e40185a9ca2af39a63c5712390b71ebd71b10))  - (repo-ranger[bot])
+- PR [#13](https://github.com/tj-actions/git-cliff/pull/13): upgraded to v1.0.3 ([ee83c9c](https://github.com/tj-actions/git-cliff/commit/ee83c9cbe06f367e09cb15f5dec28bd77a287826))  - (repo-ranger[bot])
 
 ## <!-- 26 -->🔄 Update
 
@@ -68,7 +83,7 @@
 
 ## <!-- 12 -->📝 Other
 
-- PR [#12](https://github.com/orhun/git-cliff/pull/12): ([34e8548](https://github.com/tj-actions/git-cliff/commit/34e85485ff93db543f82f67469e49f30e2537664))  - (Tonye Jack)
+- PR [#12](https://github.com/tj-actions/git-cliff/pull/12): ([34e8548](https://github.com/tj-actions/git-cliff/commit/34e85485ff93db543f82f67469e49f30e2537664))  - (Tonye Jack)
 
 ## <!-- 26 -->🔄 Update
 
@@ -84,7 +99,7 @@
 
 ## <!-- 12 -->📝 Other
 
-- PR [#11](https://github.com/orhun/git-cliff/pull/11): to v1.0.1 ([10aa516](https://github.com/tj-actions/git-cliff/commit/10aa516fb82b2851880fe959c94ec2eb9a0262d0))  - (repo-ranger[bot])
+- PR [#11](https://github.com/tj-actions/git-cliff/pull/11): to v1.0.1 ([10aa516](https://github.com/tj-actions/git-cliff/commit/10aa516fb82b2851880fe959c94ec2eb9a0262d0))  - (repo-ranger[bot])
 
 ## <!-- 16 -->➕ Add
 
@@ -110,7 +125,7 @@
 
 ## <!-- 12 -->📝 Other
 
-- PR [#10](https://github.com/orhun/git-cliff/pull/10): ([2deb7d0](https://github.com/tj-actions/git-cliff/commit/2deb7d05fea40101e4ddd1ba37dbeaf346b3662a))  - (Tonye Jack)
+- PR [#10](https://github.com/tj-actions/git-cliff/pull/10): ([2deb7d0](https://github.com/tj-actions/git-cliff/commit/2deb7d05fea40101e4ddd1ba37dbeaf346b3662a))  - (Tonye Jack)
 
 ## <!-- 17 -->➖ Remove
 
@@ -135,9 +150,9 @@
 
 ## <!-- 12 -->📝 Other
 
-- PR [#9](https://github.com/orhun/git-cliff/pull/9): README.md ([e162eea](https://github.com/tj-actions/git-cliff/commit/e162eea0bc836ef9839824d0c20a0cff6e5d7b89))  - (repo-ranger[bot])
-- PR [#8](https://github.com/orhun/git-cliff/pull/8): ([bb4378b](https://github.com/tj-actions/git-cliff/commit/bb4378be805d106801b0e301fa6bd1bbf37b5db0))  - (Tonye Jack)
-- PR [#7](https://github.com/orhun/git-cliff/pull/7): README.md ([31bbbfd](https://github.com/tj-actions/git-cliff/commit/31bbbfd3bf27d9a66454d5a4f285233d00ce5a05))  - (repo-ranger[bot])
+- PR [#9](https://github.com/tj-actions/git-cliff/pull/9): README.md ([e162eea](https://github.com/tj-actions/git-cliff/commit/e162eea0bc836ef9839824d0c20a0cff6e5d7b89))  - (repo-ranger[bot])
+- PR [#8](https://github.com/tj-actions/git-cliff/pull/8): ([bb4378b](https://github.com/tj-actions/git-cliff/commit/bb4378be805d106801b0e301fa6bd1bbf37b5db0))  - (Tonye Jack)
+- PR [#7](https://github.com/tj-actions/git-cliff/pull/7): README.md ([31bbbfd](https://github.com/tj-actions/git-cliff/commit/31bbbfd3bf27d9a66454d5a4f285233d00ce5a05))  - (repo-ranger[bot])
 
 ## <!-- 14 -->🔖 Releases
 
