@@ -1,19 +1,57 @@
 # Changelog
 
+# [1.2.1](https://github.com/tj-actions/git-cliff/compare/v1.2.0...v1.2.1) - (2023-04-01)
+
+## <!-- 1 -->🐛 Bug Fixes
+
+- Patterns matching commits ([fb0ac3a](https://github.com/tj-actions/git-cliff/commit/fb0ac3ac1c562f61b1e0608b2fb4242622e232d0))  - (Tonye Jack)
+
+## <!-- 12 -->📝 Other
+
+- PR [#19](https://github.com/orhun/git-cliff/pull/19): patterns matching commits ([fe3217f](https://github.com/tj-actions/git-cliff/commit/fe3217f6c9f9009dd5f66d0ae95d3c3acefcc817))  - (repo-ranger[bot])
+
+# [1.2.0](https://github.com/tj-actions/git-cliff/compare/v1.1.0...v1.2.0) - (2023-04-01)
+
+## <!-- 0 -->🚀 Features
+
+- Replace Merge PR patterns with links to the PR ([787d4be](https://github.com/tj-actions/git-cliff/commit/787d4beb012baa59cada9778dcb2994ceb44b6b3))  - (Tonye Jack)
+
+## <!-- 12 -->📝 Other
+
+- PR [#18](https://github.com/orhun/git-cliff/pull/18): replace Merge PR patterns with links to the PR ([0f20e85](https://github.com/tj-actions/git-cliff/commit/0f20e85a61f66e40e907db5249e726771027244a))  - (repo-ranger[bot])
+- PR [#17](https://github.com/orhun/git-cliff/pull/17): README.md ([9ee3083](https://github.com/tj-actions/git-cliff/commit/9ee3083cf32115696cf3aeb25fb4c3ad2a1e990d))  - (repo-ranger[bot])
+- PR [#16](https://github.com/orhun/git-cliff/pull/16): update credits ([2947cf6](https://github.com/tj-actions/git-cliff/commit/2947cf6ca0625898324d2c0250bdf8bdbc5d530d))  - (repo-ranger[bot])
+- PR [#15](https://github.com/orhun/git-cliff/pull/15): to v1.1.0 ([15f5df0](https://github.com/tj-actions/git-cliff/commit/15f5df01bb34ddfa75119b8e9d64717102d3cdfc))  - (repo-ranger[bot])
+
+## <!-- 12 -->🔀 Merges
+
+- Merge branch 'main' into feat/replace-Merge-PR-patterns-with-links-to-the-PR ([433f82c](https://github.com/tj-actions/git-cliff/commit/433f82cb698a39e10138a7f23b0ef49954883c2c))  - (repo-ranger[bot])
+- Merge branch 'main' into doc/update-credits ([814e77c](https://github.com/tj-actions/git-cliff/commit/814e77ca904e1b53af04aa1309b906f5a9426cd3))  - (repo-ranger[bot])
+
+## <!-- 26 -->🔄 Update
+
+- Updated README.md
+ ([dfac656](https://github.com/tj-actions/git-cliff/commit/dfac6569f8dfb8d4918102e5859e69aa3fda2068))  - (repo-ranger[bot])
+
+## <!-- 3 -->📚 Documentation
+
+- Update credits ([f79c511](https://github.com/tj-actions/git-cliff/commit/f79c511476e92983e30f423063742df8b84481f7))  - (Tonye Jack)
+
+## <!-- 9 -->⬆️ Upgrades
+
+- Upgraded from v1.0.3 -> v1.1.0
+ ([e82a450](https://github.com/tj-actions/git-cliff/commit/e82a450437b4d85013bfd5889a6d64273dea8c96))  - (jackton1)
+
 # [1.1.0](https://github.com/tj-actions/git-cliff/compare/v1.0.3...v1.1.0) - (2023-04-01)
 
 ## <!-- 0 -->🚀 Features
 
 - Update cliff template ([625981f](https://github.com/tj-actions/git-cliff/commit/625981fb896fe7fbf576f0e6a33e475b679e50ed))  - (Tonye Jack)
 
-## <!-- 12 -->🔀 Merges
+## <!-- 12 -->📝 Other
 
-- Merge pull request #14 from tj-actions/feat/update-cliff-template
-
-feat: update cliff template ([994e401](https://github.com/tj-actions/git-cliff/commit/994e40185a9ca2af39a63c5712390b71ebd71b10))  - (repo-ranger[bot])
-- Merge pull request #13 from tj-actions/upgrade-to-v1.0.3
-
-chore: upgraded to v1.0.3 ([ee83c9c](https://github.com/tj-actions/git-cliff/commit/ee83c9cbe06f367e09cb15f5dec28bd77a287826))  - (repo-ranger[bot])
+- PR [#14](https://github.com/orhun/git-cliff/pull/14): update cliff template ([994e401](https://github.com/tj-actions/git-cliff/commit/994e40185a9ca2af39a63c5712390b71ebd71b10))  - (repo-ranger[bot])
+- PR [#13](https://github.com/orhun/git-cliff/pull/13): upgraded to v1.0.3 ([ee83c9c](https://github.com/tj-actions/git-cliff/commit/ee83c9cbe06f367e09cb15f5dec28bd77a287826))  - (repo-ranger[bot])
 
 ## <!-- 26 -->🔄 Update
 
@@ -28,11 +66,9 @@ chore: upgraded to v1.0.3 ([ee83c9c](https://github.com/tj-actions/git-cliff/com
 
 # [1.0.3](https://github.com/tj-actions/git-cliff/compare/v1.0.2...v1.0.3) - (2023-03-31)
 
-## <!-- 12 -->🔀 Merges
+## <!-- 12 -->📝 Other
 
-- Merge pull request #12 from tj-actions/upgrade-to-v1.0.2
-
- ([34e8548](https://github.com/tj-actions/git-cliff/commit/34e85485ff93db543f82f67469e49f30e2537664))  - (Tonye Jack)
+- PR [#12](https://github.com/orhun/git-cliff/pull/12): ([34e8548](https://github.com/tj-actions/git-cliff/commit/34e85485ff93db543f82f67469e49f30e2537664))  - (Tonye Jack)
 
 ## <!-- 26 -->🔄 Update
 
@@ -46,11 +82,9 @@ chore: upgraded to v1.0.3 ([ee83c9c](https://github.com/tj-actions/git-cliff/com
 
 # [1.0.2](https://github.com/tj-actions/git-cliff/compare/v1.0.1...v1.0.2) - (2023-03-31)
 
-## <!-- 12 -->🔀 Merges
+## <!-- 12 -->📝 Other
 
-- Merge pull request #11 from tj-actions/upgrade-to-v1.0.1
-
-Upgraded to v1.0.1 ([10aa516](https://github.com/tj-actions/git-cliff/commit/10aa516fb82b2851880fe959c94ec2eb9a0262d0))  - (repo-ranger[bot])
+- PR [#11](https://github.com/orhun/git-cliff/pull/11): to v1.0.1 ([10aa516](https://github.com/tj-actions/git-cliff/commit/10aa516fb82b2851880fe959c94ec2eb9a0262d0))  - (repo-ranger[bot])
 
 ## <!-- 16 -->➕ Add
 
@@ -74,11 +108,9 @@ Upgraded to v1.0.1 ([10aa516](https://github.com/tj-actions/git-cliff/commit/10a
 
 # [1.0.1](https://github.com/tj-actions/git-cliff/compare/v1.0.0...v1.0.1) - (2023-03-31)
 
-## <!-- 12 -->🔀 Merges
+## <!-- 12 -->📝 Other
 
-- Merge pull request #10 from tj-actions/upgrade-to-v1.0.0
-
- ([2deb7d0](https://github.com/tj-actions/git-cliff/commit/2deb7d05fea40101e4ddd1ba37dbeaf346b3662a))  - (Tonye Jack)
+- PR [#10](https://github.com/orhun/git-cliff/pull/10): ([2deb7d0](https://github.com/tj-actions/git-cliff/commit/2deb7d05fea40101e4ddd1ba37dbeaf346b3662a))  - (Tonye Jack)
 
 ## <!-- 17 -->➖ Remove
 
@@ -101,17 +133,11 @@ Upgraded to v1.0.1 ([10aa516](https://github.com/tj-actions/git-cliff/commit/10a
 
 # [1.0.0](https://github.com/tj-actions/git-cliff/tree/v1.0.0) - (2023-03-31)
 
-## <!-- 12 -->🔀 Merges
+## <!-- 12 -->📝 Other
 
-- Merge pull request #9 from tj-actions/chore/update-readme
-
-Updated README.md ([e162eea](https://github.com/tj-actions/git-cliff/commit/e162eea0bc836ef9839824d0c20a0cff6e5d7b89))  - (repo-ranger[bot])
-- Merge pull request #8 from tj-actions/chore/update-readme
-
- ([bb4378b](https://github.com/tj-actions/git-cliff/commit/bb4378be805d106801b0e301fa6bd1bbf37b5db0))  - (Tonye Jack)
-- Merge pull request #7 from tj-actions/chore/update-readme
-
-Updated README.md ([31bbbfd](https://github.com/tj-actions/git-cliff/commit/31bbbfd3bf27d9a66454d5a4f285233d00ce5a05))  - (repo-ranger[bot])
+- PR [#9](https://github.com/orhun/git-cliff/pull/9): README.md ([e162eea](https://github.com/tj-actions/git-cliff/commit/e162eea0bc836ef9839824d0c20a0cff6e5d7b89))  - (repo-ranger[bot])
+- PR [#8](https://github.com/orhun/git-cliff/pull/8): ([bb4378b](https://github.com/tj-actions/git-cliff/commit/bb4378be805d106801b0e301fa6bd1bbf37b5db0))  - (Tonye Jack)
+- PR [#7](https://github.com/orhun/git-cliff/pull/7): README.md ([31bbbfd](https://github.com/tj-actions/git-cliff/commit/31bbbfd3bf27d9a66454d5a4f285233d00ce5a05))  - (repo-ranger[bot])
 
 ## <!-- 14 -->🔖 Releases
 
