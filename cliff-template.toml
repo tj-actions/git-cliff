@@ -23,7 +23,12 @@ body = """
 		- {% if commit.scope %}\
 			**{{commit.scope}}:** \
 		  {% endif %}\
-			{{ commit.message | upper_first }} ([{{ commit.id | truncate(length=7, end="") }}](REPOSITORY_URL/commit/{{ commit.id }}))  - ({{ commit.author.name }})\
+		  {% if '```' in commit.message %}\
+		    {{ commit.message | upper_first }}\n\
+		    ([{{ commit.id | truncate(length=7, end="") }}](REPOSITORY_URL/commit/{{ commit.id }}))  - ({{ commit.author.name }})\
+          {% else %}\
+			{{ commit.message | upper_first  }} ([{{ commit.id | truncate(length=7, end="") }}](REPOSITORY_URL/commit/{{ commit.id }}))  - ({{ commit.author.name }})\
+          {% endif %}\
 		{% if commit.breaking %}\
 			{% for breakingChange in commit.footers %}\
 				\n{% raw %}  {% endraw %}- **{{ breakingChange.token }}{{ breakingChange.separator }}** {{ breakingChange.value }}\
@@ -35,51 +40,51 @@ body = """
 trim = true
 
 [git]
-conventional_commits = true
+conventional_commits = false
 filter_unconventional = false
+protect_breaking_commits = false
+filter_commits = true
 commit_preprocessors = [
-    { pattern = '\((\w+\s)?#([0-9]+)\)', replace = "([#${2}](https://github.com/tj-actions/changed-files/issues/${2}))"},
+    { pattern = '\((\w+\s)?#([0-9]+)\)', replace = "([#${2}](REPOSITORY_URL/issues/${2}))"},
 ]
 commit_parsers = [
-    { message = "^feat", group = "<!-- 0 -->🚀 Features"},
-    { message = "^fix", group = "<!-- 1 -->🐛 Bug Fixes"},
-    { message = "^doc", group = "<!-- 3 -->📚 Documentation"},
-    { message = "^perf", group = "<!-- 4 -->⚡ Performance"},
-    { message = "^refactor", group = "<!-- 2 -->🚜 Refactor"},
-    { message = "^update", group = "<!-- 2 -->🚜 Refactor"},
-    { message = "^style", group = "<!-- 5 -->🎨 Styling"},
-    { message = "^test", group = "<!-- 6 -->🧪 Testing"},
-    { message = "^chore", group = "<!-- 7 -->⚙️ Miscellaneous Tasks"},
+    { message = "(?i)^feat", group = "<!-- 0 -->🚀 Features"},
+    { message = "(?i)^fix", group = "<!-- 1 -->🐛 Bug Fixes"},
+    { message = "(?i)^doc", group = "<!-- 3 -->📚 Documentation"},
+    { message = "(?i)^perf", group = "<!-- 4 -->⚡ Performance"},
+    { message = "(?i)^refactor", group = "<!-- 2 -->🚜 Refactor"},
+    { message = "(?i)^style", group = "<!-- 5 -->🎨 Styling"},
+    { message = "(?i)^test", group = "<!-- 6 -->🧪 Testing"},
+    { message = "(?i)^chore", group = "<!-- 7 -->⚙️ Miscellaneous Tasks"},
     { body = ".*security", group = "<!-- 8 -->🛡️ Security"},
-    { message = "^upgrade", group = "<!-- 9 -->⬆️ Upgrades"},
-    { message = "^downgrade", group = "<!-- 10 -->⬇️ Downgrades"},
-    { message = "^revert", group = "<!-- 11 -->⏪ Reverts"},
-    { message = "^merge", group = "<!-- 12 -->🔀 Merges"},
-    { message = "^release", group = "<!-- 13 -->🔖 Releases"},
-    { message = "^bump", group = "<!-- 14 -->🔖 Releases"},
-    { message = "^initial", group = "<!-- 15 -->🎉 Initial Commit"},
-    { message = "^init", group = "<!-- 15 -->🎉 Initial Commit"},
-    { message = "^add", group = "<!-- 16 -->➕ Add"},
-    { message = "^remove", group = "<!-- 17 -->➖ Remove"},
-    { message = "^delete", group = "<!-- 17 -->➖ Remove"},
-    { message = "^rename", group = "<!-- 18 -->📝 Rename"},
-    { message = "^move", group = "<!-- 19 -->📂 Move"},
-    { message = "^copy", group = "<!-- 20 -->📋 Copy"},
-    { message = "^fixup", group = "<!-- 21 -->🔧 Fixup"},
-    { message = "^wip", group = "<!-- 22 -->🚧 WIP"},
-    { message = "^rework", group = "<!-- 23 -->🔨 Rework"},
-    { message = "^cleanup", group = "<!-- 24 -->🧹 Cleanup"},
-    { message = "^format", group = "<!-- 25 -->🎨 Format"},
-    { message = "^style", group = "<!-- 25 -->🎨 Format"},
-    { message = "^lint", group = "<!-- 25 -->🎨 Format"},
-    { message = "^update", group = "<!-- 26 -->🔄 Update"},
-    { message = "^upgrade", group = "<!-- 27 -->⬆️ Upgrade"},
-    { message = "^downgrade", group = "<!-- 28 -->⬇️ Downgrade"},
-    { message = "^pin", group = "<!-- 29 -->📌 Pin"},
-    { message = "^unpin", group = "<!-- 30 -->📍 Unpin"},
-    { message = "^revert", group = "<!-- 10 -->⏪ Reverts"},
-    { message = "^build", group = "<!-- 11 -->👷 CI/CD"},
+    { message = "(?i)^upgrade", group = "<!-- 9 -->⬆️ Upgrades"},
+    { message = "(?i)^downgrade", group = "<!-- 10 -->⬇️ Downgrades"},
+    { message = "(?i)^revert", group = "<!-- 11 -->⏪ Reverts"},
+    { message = "(?i)^merge", group = "<!-- 12 -->🔀 Merges"},
+    { message = "(?i)^release", group = "<!-- 13 -->🔖 Releases"},
+    { message = "(?i)^bump", group = "<!-- 14 -->🔖 Releases"},
+    { message = "(?i)^initial", group = "<!-- 15 -->🎉 Initial Commit"},
+    { message = "(?i)^init", group = "<!-- 15 -->🎉 Initial Commit"},
+    { message = "(?i)^add", group = "<!-- 16 -->➕ Add"},
+    { message = "(?i)^create", group = "<!-- 16 -->➕ Add"},
+    { message = "(?i)^remove", group = "<!-- 17 -->➖ Remove"},
+    { message = "(?i)^delete", group = "<!-- 17 -->➖ Remove"},
+    { message = "(?i)^rename", group = "<!-- 18 -->📝 Rename"},
+    { message = "(?i)^move", group = "<!-- 19 -->📂 Move"},
+    { message = "(?i)^copy", group = "<!-- 20 -->📋 Copy"},
+    { message = "(?i)^fixup", group = "<!-- 21 -->🔧 Fixup"},
+    { message = "(?i)^wip", group = "<!-- 22 -->🚧 WIP"},
+    { message = "(?i)^rework", group = "<!-- 23 -->🔨 Rework"},
+    { message = "(?i)^cleanup", group = "<!-- 24 -->🧹 Cleanup"},
+    { message = "(?i)^format", group = "<!-- 25 -->🎨 Format"},
+    { message = "(?i)^style", group = "<!-- 25 -->🎨 Format"},
+    { message = "(?i)^lint", group = "<!-- 25 -->🎨 Format"},
+    { message = "(?i)^update", group = "<!-- 26 -->🔄 Update"},
+    { message = "(?i)^pin", group = "<!-- 29 -->📌 Pin"},
+    { message = "(?i)^unpin", group = "<!-- 30 -->📍 Unpin"},
+    { message = "(?i)^build", group = "<!-- 11 -->👷 CI/CD"},
+    { message = ".*", group = "<!-- 12 -->📝 Other"},
 ]
 tag_pattern = "v[0-9]*"
-top_order = false
+topo_order = false
 sort_commits = "newest"
