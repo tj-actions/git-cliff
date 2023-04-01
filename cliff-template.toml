@@ -43,7 +43,6 @@ trim = true
 conventional_commits = true
 filter_unconventional = false
 protect_breaking_commits = false
-filter_commits = true
 commit_preprocessors = [
     { pattern = '\((\w+\s)?#([0-9]+)\)', replace = "([#${2}](REPOSITORY_URL/issues/${2}))"},
 ]
