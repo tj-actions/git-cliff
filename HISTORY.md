@@ -1,12 +1,176 @@
 # Changelog
 
+# [1.1.0](https://github.com/tj-actions/git-cliff/compare/v1.0.3...v1.1.0) - (2023-04-01)
+
+## <!-- 0 -->🚀 Features
+
+- Update cliff template ([625981f](https://github.com/tj-actions/git-cliff/commit/625981fb896fe7fbf576f0e6a33e475b679e50ed))  - (Tonye Jack)
+
+## <!-- 12 -->🔀 Merges
+
+- Merge pull request #14 from tj-actions/feat/update-cliff-template
+
+feat: update cliff template ([994e401](https://github.com/tj-actions/git-cliff/commit/994e40185a9ca2af39a63c5712390b71ebd71b10))  - (repo-ranger[bot])
+- Merge pull request #13 from tj-actions/upgrade-to-v1.0.3
+
+chore: upgraded to v1.0.3 ([ee83c9c](https://github.com/tj-actions/git-cliff/commit/ee83c9cbe06f367e09cb15f5dec28bd77a287826))  - (repo-ranger[bot])
+
+## <!-- 26 -->🔄 Update
+
+- Update cliff-template.toml ([346d696](https://github.com/tj-actions/git-cliff/commit/346d6964177f58559271bf42ec468ed2669839a1))  - (Tonye Jack)
+- Update cliff-template.toml ([e30144a](https://github.com/tj-actions/git-cliff/commit/e30144a68d92a860c1aa39ed204f7ee285c7a9b5))  - (Tonye Jack)
+- Update README.md ([50fcfa2](https://github.com/tj-actions/git-cliff/commit/50fcfa2750e5d625d1025ee1f6e1318e80761243))  - (Tonye Jack)
+
+## <!-- 9 -->⬆️ Upgrades
+
+- Upgraded from v1.0.2 -> v1.0.3
+ ([db7b192](https://github.com/tj-actions/git-cliff/commit/db7b192a2edacac6e21cfe204f7ab8c38f00d513))  - (jackton1)
+
 # [1.0.3](https://github.com/tj-actions/git-cliff/compare/v1.0.2...v1.0.3) - (2023-03-31)
+
+## <!-- 12 -->🔀 Merges
+
+- Merge pull request #12 from tj-actions/upgrade-to-v1.0.2
+
+ ([34e8548](https://github.com/tj-actions/git-cliff/commit/34e85485ff93db543f82f67469e49f30e2537664))  - (Tonye Jack)
+
+## <!-- 26 -->🔄 Update
+
+- Update cliff-template.toml ([1a1346d](https://github.com/tj-actions/git-cliff/commit/1a1346d5aa9a359ed597b7724478e3726015b5e2))  - (Tonye Jack)
+- Update README.md ([84c2aed](https://github.com/tj-actions/git-cliff/commit/84c2aedffe7944ffc99295ad17cebbdbf2d27788))  - (Tonye Jack)
+
+## <!-- 9 -->⬆️ Upgrades
+
+- Upgraded from v1.0.1 -> v1.0.2
+ ([d53dcb8](https://github.com/tj-actions/git-cliff/commit/d53dcb8618e9727b09c6957f343384041ebaa801))  - (jackton1)
 
 # [1.0.2](https://github.com/tj-actions/git-cliff/compare/v1.0.1...v1.0.2) - (2023-03-31)
 
+## <!-- 12 -->🔀 Merges
+
+- Merge pull request #11 from tj-actions/upgrade-to-v1.0.1
+
+Upgraded to v1.0.1 ([10aa516](https://github.com/tj-actions/git-cliff/commit/10aa516fb82b2851880fe959c94ec2eb9a0262d0))  - (repo-ranger[bot])
+
+## <!-- 16 -->➕ Add
+
+- Create cleanup.sh ([ec23dbb](https://github.com/tj-actions/git-cliff/commit/ec23dbba731b3df7a091727e80604915ea760d87))  - (Tonye Jack)
+
+## <!-- 26 -->🔄 Update
+
+- Update cleanup.sh ([4f805a7](https://github.com/tj-actions/git-cliff/commit/4f805a759c67401bf1eae2aeb2bde207d739ac0d))  - (Tonye Jack)
+- Update action.yml ([e8a77b4](https://github.com/tj-actions/git-cliff/commit/e8a77b49f1f86f70a6ab4e889148fb4e50509175))  - (Tonye Jack)
+- Update entrypoint.sh ([b59492b](https://github.com/tj-actions/git-cliff/commit/b59492be51e450534cf97453d9eeda943ac25895))  - (Tonye Jack)
+- Update entrypoint.sh ([e80c767](https://github.com/tj-actions/git-cliff/commit/e80c7676747b5b3939d434f2690bad34c0d82739))  - (Tonye Jack)
+- Update cleanup.sh ([b24a411](https://github.com/tj-actions/git-cliff/commit/b24a411da3ff64f7db89ddec882fd7662c372fed))  - (Tonye Jack)
+- Update action.yml ([30c2087](https://github.com/tj-actions/git-cliff/commit/30c2087d8eed9bec7ac2550d1079782938af54c9))  - (Tonye Jack)
+- Update action.yml ([eea06ad](https://github.com/tj-actions/git-cliff/commit/eea06ad433c51e48db7a919d8dd54ef010dd5692))  - (Tonye Jack)
+- Update entrypoint.sh ([7af9384](https://github.com/tj-actions/git-cliff/commit/7af93842070242aa132d80d87189871be87b887b))  - (Tonye Jack)
+
+## <!-- 9 -->⬆️ Upgrades
+
+- Upgraded from v1.0.0 -> v1.0.1
+ ([4651066](https://github.com/tj-actions/git-cliff/commit/4651066a8e8e30a6d6265797148573c0ec75d374))  - (jackton1)
+
 # [1.0.1](https://github.com/tj-actions/git-cliff/compare/v1.0.0...v1.0.1) - (2023-03-31)
 
+## <!-- 12 -->🔀 Merges
+
+- Merge pull request #10 from tj-actions/upgrade-to-v1.0.0
+
+ ([2deb7d0](https://github.com/tj-actions/git-cliff/commit/2deb7d05fea40101e4ddd1ba37dbeaf346b3662a))  - (Tonye Jack)
+
+## <!-- 17 -->➖ Remove
+
+- Delete cliff.toml ([e36187e](https://github.com/tj-actions/git-cliff/commit/e36187eb492e05796bbf011cc316576a3754e3c2))  - (Tonye Jack)
+
+## <!-- 26 -->🔄 Update
+
+- Update README.md ([c96bfe2](https://github.com/tj-actions/git-cliff/commit/c96bfe2173b01fcb08e8747a6b068485d1df1ca6))  - (Tonye Jack)
+- Update README.md ([3ef50b3](https://github.com/tj-actions/git-cliff/commit/3ef50b30fbfd1138a5e85fb4c5548f06fac61b6d))  - (Tonye Jack)
+- Update README.md ([f6a749d](https://github.com/tj-actions/git-cliff/commit/f6a749d9348b23c81357f5875b0709585f475837))  - (Tonye Jack)
+- Update test.yml ([fdfe2b6](https://github.com/tj-actions/git-cliff/commit/fdfe2b64f4650f9bb02f7e6b637bf8b0a7e6557f))  - (Tonye Jack)
+- Update test.yml ([a61b766](https://github.com/tj-actions/git-cliff/commit/a61b766076fa66a06c7e6b8ee9de1f5f1a2a3932))  - (Tonye Jack)
+- Update action.yml ([1e6ba9b](https://github.com/tj-actions/git-cliff/commit/1e6ba9b5bb2e6250380ef25605bd0df4af144369))  - (Tonye Jack)
+- Update entrypoint.sh ([038b4cc](https://github.com/tj-actions/git-cliff/commit/038b4ccc0108051d9c11c61d3f267baf68760343))  - (Tonye Jack)
+
+## <!-- 9 -->⬆️ Upgrades
+
+- Upgraded from v1.0.0 -> v1.0.0
+ ([1933bc1](https://github.com/tj-actions/git-cliff/commit/1933bc1a98cea5e4e2d7b28d97df477fc832ee46))  - (jackton1)
+
 # [1.0.0](https://github.com/tj-actions/git-cliff/tree/v1.0.0) - (2023-03-31)
+
+## <!-- 12 -->🔀 Merges
+
+- Merge pull request #9 from tj-actions/chore/update-readme
+
+Updated README.md ([e162eea](https://github.com/tj-actions/git-cliff/commit/e162eea0bc836ef9839824d0c20a0cff6e5d7b89))  - (repo-ranger[bot])
+- Merge pull request #8 from tj-actions/chore/update-readme
+
+ ([bb4378b](https://github.com/tj-actions/git-cliff/commit/bb4378be805d106801b0e301fa6bd1bbf37b5db0))  - (Tonye Jack)
+- Merge pull request #7 from tj-actions/chore/update-readme
+
+Updated README.md ([31bbbfd](https://github.com/tj-actions/git-cliff/commit/31bbbfd3bf27d9a66454d5a4f285233d00ce5a05))  - (repo-ranger[bot])
+
+## <!-- 14 -->🔖 Releases
+
+- Bump tj-actions/verify-changed-files from 13 to 14
+
+Bumps [tj-actions/verify-changed-files](https://github.com/tj-actions/verify-changed-files) from 13 to 14.
+- [Release notes](https://github.com/tj-actions/verify-changed-files/releases)
+- [Changelog](https://github.com/tj-actions/verify-changed-files/blob/main/HISTORY.md)
+- [Commits](https://github.com/tj-actions/verify-changed-files/compare/v13...v14)
+
+---
+updated-dependencies:
+- dependency-name: tj-actions/verify-changed-files
+  dependency-type: direct:production
+  update-type: version-update:semver-major
+...
+
+Signed-off-by: dependabot[bot] <support@github.com> ([7fd6cc5](https://github.com/tj-actions/git-cliff/commit/7fd6cc5c5a8f1f65268ec762e11ce9f5cc46d45b))  - (dependabot[bot])
+
+## <!-- 15 -->🎉 Initial Commit
+
+- Initial commit ([b2d9b0e](https://github.com/tj-actions/git-cliff/commit/b2d9b0e8a9277b9281b241c6f755ad3698ee14d6))  - (Tonye Jack)
+
+## <!-- 16 -->➕ Add
+
+- Create cliff-template.toml ([c885ca0](https://github.com/tj-actions/git-cliff/commit/c885ca0f12f370cf42cc71440ef9359bbf8ae15f))  - (Tonye Jack)
+
+## <!-- 17 -->➖ Remove
+
+- Removed unused file ([d9522e0](https://github.com/tj-actions/git-cliff/commit/d9522e0b272cdc63df65c92e7cd065b4127e66ae))  - (Tonye Jack)
+
+## <!-- 26 -->🔄 Update
+
+- Update HISTORY.md ([96e1441](https://github.com/tj-actions/git-cliff/commit/96e14417691d6223f958e514c880db397174ba9f))  - (Tonye Jack)
+- Update sync-release-version.yml ([2e3b6b2](https://github.com/tj-actions/git-cliff/commit/2e3b6b20ffd46807d68667e7ba5444573bb35c58))  - (Tonye Jack)
+- Update test.yml ([728a074](https://github.com/tj-actions/git-cliff/commit/728a074581224c68f1c94eaa83800bbd4d3aa7e3))  - (Tonye Jack)
+- Update test.yml ([8483e36](https://github.com/tj-actions/git-cliff/commit/8483e3660abc7235fb3c3799873fe180e411d6f4))  - (Tonye Jack)
+- Updated README.md
+ ([a82ccab](https://github.com/tj-actions/git-cliff/commit/a82ccab90634f99e476316020bd8af9bdbd51ca2))  - (jackton1)
+- Update test.yml ([485fdb6](https://github.com/tj-actions/git-cliff/commit/485fdb635565f0f72372c522abbd2d350fa6a755))  - (Tonye Jack)
+- Updated README.md
+ ([59b09db](https://github.com/tj-actions/git-cliff/commit/59b09db18c8ef19ecd410b8fd015dd939b2549af))  - (jackton1)
+- Update README.md ([12b7209](https://github.com/tj-actions/git-cliff/commit/12b7209e4921d13cf63970efc446fa89bdbe8aa8))  - (Tonye Jack)
+- Update README.md ([ed37e25](https://github.com/tj-actions/git-cliff/commit/ed37e254dbe9474655dd518984cc790a4d494701))  - (Tonye Jack)
+- Update test.yml ([fc7d6f7](https://github.com/tj-actions/git-cliff/commit/fc7d6f7a73792dba87858a41a541d531b17b1ed6))  - (Tonye Jack)
+- Update test.yml ([8fa9891](https://github.com/tj-actions/git-cliff/commit/8fa98912b2f6478c0d4c20981a2c313bc6da552a))  - (Tonye Jack)
+- Update entrypoint.sh ([45af158](https://github.com/tj-actions/git-cliff/commit/45af158ff44588dafb01ff64c64d551063512857))  - (Tonye Jack)
+- Update entrypoint.sh ([1f6ac81](https://github.com/tj-actions/git-cliff/commit/1f6ac812a54eea0338b585ad5699cb80f164e281))  - (Tonye Jack)
+- Update test.yml ([88b34ea](https://github.com/tj-actions/git-cliff/commit/88b34eac5c95624f4fe1ca4b31dffe1764bba265))  - (Tonye Jack)
+- Updated README.md
+ ([be4f983](https://github.com/tj-actions/git-cliff/commit/be4f9832fec95700a83f30be69ca31791ae14a1e))  - (jackton1)
+- Update action.yml ([e96f3bc](https://github.com/tj-actions/git-cliff/commit/e96f3bcaa156f229f3cb17e292a9c8cfe3980d98))  - (Tonye Jack)
+- Update action.yml ([c695cb8](https://github.com/tj-actions/git-cliff/commit/c695cb896d9e2c053a585f275a108d00a1214fb5))  - (Tonye Jack)
+- Update cliff-template.toml ([ab99767](https://github.com/tj-actions/git-cliff/commit/ab9976730fccb7afdb3ac0e82b7c027758767bbb))  - (Tonye Jack)
+- Update alpine Docker tag to v3.17.3 ([87b5e06](https://github.com/tj-actions/git-cliff/commit/87b5e069463ed732a37a4519c0847c3d943d1de2))  - (renovate[bot])
+- Update tj-actions/release-tagger action to v3 ([a5bad5c](https://github.com/tj-actions/git-cliff/commit/a5bad5c4c8d6fe3c1bce4c4b4c73b9cc07f897d9))  - (renovate[bot])
+- Update cliff-template.toml ([72627c7](https://github.com/tj-actions/git-cliff/commit/72627c71a6a25999b7b1c6ba216cdb3c3ceee0c5))  - (Tonye Jack)
+- Update README.md ([4a714b0](https://github.com/tj-actions/git-cliff/commit/4a714b0fe917f30ca5610b8551d55bb63a7d39be))  - (Tonye Jack)
+- Update tj-actions/github-changelog-generator action to v1.18 ([3f68b8c](https://github.com/tj-actions/git-cliff/commit/3f68b8c991daa1fcaebdcab600d822a069ec6944))  - (renovate[bot])
 
 ## <!-- 7 -->⚙️ Miscellaneous Tasks
 
