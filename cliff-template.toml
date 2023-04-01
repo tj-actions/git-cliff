@@ -62,7 +62,7 @@ commit_parsers = [
     { message = "(?i)^revert", group = "<!-- 11 -->⏪ Reverts"},
     { message = "(?i)^merge", group = "<!-- 12 -->🔀 Merges"},
     { message = "(?i)^release", group = "<!-- 13 -->🔖 Releases"},
-    { message = "(?i)^bump", group = "<!-- 14 -->🔖 Releases"},
+    { message = "(?i)^bump", group = "<!-- 14 -->📦 Bumps"},
     { message = "(?i)^initial", group = "<!-- 15 -->🎉 Initial Commit"},
     { message = "(?i)^init", group = "<!-- 15 -->🎉 Initial Commit"},
     { message = "(?i)^add", group = "<!-- 16 -->➕ Add"},
