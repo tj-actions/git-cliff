@@ -1,5 +1,20 @@
 # Changelog
 
+# [1.2.4](https://github.com/tj-actions/git-cliff/compare/v1.2.3...v1.2.4) - (2023-04-01)
+
+## <!-- 1 -->🐛 Bug Fixes
+
+- Update path to use github action path ([#25](https://github.com/tj-actions/git-cliff/issues/25)) ([f5b2de3](https://github.com/tj-actions/git-cliff/commit/f5b2de3def89365b1f59e0d7888bec370c550595))  - (Tonye Jack)
+
+## <!-- 12 -->📝 Other
+
+- PR [#24](https://github.com/tj-actions/git-cliff/pull/24): to v1.2.3 ([143caaa](https://github.com/tj-actions/git-cliff/commit/143caaaebe741c7247a57519c1db9a41043000f6))  - (repo-ranger[bot])
+
+## <!-- 9 -->⬆️ Upgrades
+
+- Upgraded from v1.2.2 -> v1.2.3
+ ([a651804](https://github.com/tj-actions/git-cliff/commit/a651804bb184a46d3ed6878b8800624a99838f86))  - (jackton1)
+
 # [1.2.3](https://github.com/tj-actions/git-cliff/compare/v1.2.2...v1.2.3) - (2023-04-01)
 
 ## <!-- 1 -->🐛 Bug Fixes
