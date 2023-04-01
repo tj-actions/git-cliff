@@ -1,5 +1,20 @@
 # Changelog
 
+# [1.2.3](https://github.com/tj-actions/git-cliff/compare/v1.2.2...v1.2.3) - (2023-04-01)
+
+## <!-- 1 -->🐛 Bug Fixes
+
+- Unable to read cliff-template.toml ([#23](https://github.com/tj-actions/git-cliff/issues/23)) ([8c7d68a](https://github.com/tj-actions/git-cliff/commit/8c7d68affbd6c2aa0bcb33c0bf4afc5fdf24ad25))  - (Tonye Jack)
+
+## <!-- 12 -->📝 Other
+
+- PR [#22](https://github.com/tj-actions/git-cliff/pull/22): to v1.2.2 ([f290b4b](https://github.com/tj-actions/git-cliff/commit/f290b4b249a71bbbedcd7f30315e2d745b1f3437))  - (repo-ranger[bot])
+
+## <!-- 9 -->⬆️ Upgrades
+
+- Upgraded from v1.2.1 -> v1.2.2
+ ([976d3be](https://github.com/tj-actions/git-cliff/commit/976d3beb637bbbdb4f8625699df871e8600a91f6))  - (jackton1)
+
 # [1.2.2](https://github.com/tj-actions/git-cliff/compare/v1.2.1...v1.2.2) - (2023-04-01)
 
 ## <!-- 1 -->🐛 Bug Fixes
