@@ -40,7 +40,7 @@ body = """
 trim = true
 
 [git]
-conventional_commits = false
+conventional_commits = true
 filter_unconventional = false
 protect_breaking_commits = false
 filter_commits = true
