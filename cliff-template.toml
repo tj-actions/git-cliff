@@ -45,7 +45,7 @@ filter_unconventional = false
 protect_breaking_commits = false
 commit_preprocessors = [
     { pattern = '\((\w+\s)?#([0-9]+)\)', replace = "([#${2}](REPOSITORY_URL/issues/${2}))"},
-    { pattern = "Merge pull request #([0-9]+) from [^ ]+", replace = "PR [#${1}](https://github.com/orhun/git-cliff/pull/${1}):"},
+    { pattern = "Merge pull request #([0-9]+) from [^ ]+", replace = "PR [#${1}](REPOSITORY_URL/pull/${1}):"},
 ]
 commit_parsers = [
     { message = "(?i)^feat", group = "<!-- 0 -->🚀 Features"},
