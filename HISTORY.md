@@ -1,5 +1,21 @@
 # Changelog
 
+# [1.3.0](https://github.com/tj-actions/git-cliff/compare/v1.2.4...v1.3.0) - (2023-04-01)
+
+## <!-- 0 -->🚀 Features
+
+- Rename bump group ([2734cb6](https://github.com/tj-actions/git-cliff/commit/2734cb6bc504dba775d6569d263a94a6fc885fa6))  - (Tonye Jack)
+
+## <!-- 12 -->📝 Other
+
+- PR [#27](https://github.com/tj-actions/git-cliff/pull/27): rename bump group ([8a707d1](https://github.com/tj-actions/git-cliff/commit/8a707d1bca98dc7514153cc1cdff474b5b373fee))  - (repo-ranger[bot])
+- PR [#26](https://github.com/tj-actions/git-cliff/pull/26): to v1.2.4 ([44efd1c](https://github.com/tj-actions/git-cliff/commit/44efd1cf3518aca198fbc5c00bc167ffa8228907))  - (repo-ranger[bot])
+
+## <!-- 9 -->⬆️ Upgrades
+
+- Upgraded from v1.2.3 -> v1.2.4
+ ([9de9f40](https://github.com/tj-actions/git-cliff/commit/9de9f4018521f2bd3d995693a48a61098a334a0b))  - (jackton1)
+
 # [1.2.4](https://github.com/tj-actions/git-cliff/compare/v1.2.3...v1.2.4) - (2023-04-01)
 
 ## <!-- 1 -->🐛 Bug Fixes
@@ -184,7 +200,7 @@
 - PR [#8](https://github.com/tj-actions/git-cliff/pull/8): ([bb4378b](https://github.com/tj-actions/git-cliff/commit/bb4378be805d106801b0e301fa6bd1bbf37b5db0))  - (Tonye Jack)
 - PR [#7](https://github.com/tj-actions/git-cliff/pull/7): README.md ([31bbbfd](https://github.com/tj-actions/git-cliff/commit/31bbbfd3bf27d9a66454d5a4f285233d00ce5a05))  - (repo-ranger[bot])
 
-## <!-- 14 -->🔖 Releases
+## <!-- 14 -->📦 Bumps
 
 - Bump tj-actions/verify-changed-files from 13 to 14
 
