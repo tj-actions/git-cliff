@@ -29,10 +29,11 @@ Generate changelogs for your project with a custom cliff.toml.
 
 <!-- AUTO-DOC-INPUT:START - Do not remove or modify this section -->
 
-| INPUT  |  TYPE  | REQUIRED |    DEFAULT     |                                             DESCRIPTION                                              |
-|--------|--------|----------|----------------|------------------------------------------------------------------------------------------------------|
-|  args  | string |  false   | `"--verbose"`  | Extra args passed directly to [git-cliff](https://github.com/orhun/git-cliff#command-line-arguments) |
-| output | string |  false   | `"HISTORY.md"` |                                             Output file                                              |
+|      INPUT      |  TYPE  | REQUIRED |    DEFAULT     |                                                                                        DESCRIPTION                                                                                         |
+|-----------------|--------|----------|----------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|      args       | string |  false   | `"--verbose"`  |                                            Extra args passed directly to [git-cliff](https://github.com/orhun/git-cliff#command-line-arguments)                                            |
+|     output      | string |  false   | `"HISTORY.md"` |                                                                                        Output file                                                                                         |
+| template-config | string |  false   |                | Path or URL to the template<br> `cliff.toml` config file. See [`cliff-template.toml`](./cliff-template.toml) for a working example. **NOTE:** Only the<br>`REPOSITORY_URL` is substituted. |
 
 <!-- AUTO-DOC-INPUT:END -->
 
