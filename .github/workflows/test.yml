@@ -30,3 +30,8 @@ jobs:
 
       - name: Run git-cliff
         uses: ./
+        
+      - name: Run git-cliff with a URL based template
+        uses: ./
+        with:
+          template-config: "https://raw.githubusercontent.com/tj-actions/git-cliff/main/cliff-template.toml"

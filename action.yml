@@ -10,6 +10,9 @@ inputs:
     description: "Output file"
     required: false
     default: "HISTORY.md"
+  template-config:
+    description: "Path or URL to the template `cliff.toml` config file. See [`cliff-template.toml`](./cliff-template.toml) for a working example. **NOTE:** Only the `REPOSITORY_URL` is substituted."
+    required: false
 
 runs:
   using: 'composite'
@@ -22,6 +25,7 @@ runs:
         # INPUT_<VARIABLE_NAME> is not available in Composite run steps
         # https://docs.github.com/en/actions/creating-actions/metadata-syntax-for-github-actions#example-specifying-inputs
         INPUT_REPOSITORY_URL: ${{ github.server_url }}/${{ github.repository }}
+        INPUT_TEMPLATE_CONFIG: ${{ inputs.template-config }}
 
     - name: Generate a changelog
       uses: orhun/git-cliff-action@v2
