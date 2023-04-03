@@ -3,7 +3,8 @@
 set -euo pipefail
 
 OUTPUT_PATH="cliff.toml"
-TEMPLATE_CONFIG=$INPUT_TEMPLATE_CONFIG
+DEFAULT_TEMPLATE_CONFIG=$GITHUB_ACTION_PATH"/cliff-template.toml
+TEMPLATE_CONFIG=${INPUT_TEMPLATE_CONFIG:-$DEFAULT_TEMPLATE_CONFIG}
 
 if [[ ! -f "$OUTPUT_PATH" ]]; then
   if [[ "$TEMPLATE_CONFIG" == "http"* ]] || [[ "$TEMPLATE_CONFIG" == "https"* ]]; then
