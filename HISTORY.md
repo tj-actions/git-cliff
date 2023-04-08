@@ -1,5 +1,31 @@
 # Changelog
 
+# [1.4.1](https://github.com/tj-actions/git-cliff/compare/v1.4.0...v1.4.1) - (2023-04-08)
+
+## <!-- 26 -->🔄 Update
+
+- Update sync-release-version.yml ([57fe1d0](https://github.com/tj-actions/git-cliff/commit/57fe1d0ae7e42148a6cb4b5db02af6b734a042df))  - (Tonye Jack)
+- Update README.md ([a29d2c7](https://github.com/tj-actions/git-cliff/commit/a29d2c70abf64de53bd366b60a5620ec32ec249e))  - (Tonye Jack)
+- Updated README.md
+ ([d66d804](https://github.com/tj-actions/git-cliff/commit/d66d8046a53c845c343dad611eee919aa86e3d6d))  - (jackton1)
+- Update README.md ([0282187](https://github.com/tj-actions/git-cliff/commit/028218727125c8bd5101deeaf158a131b0175e24))  - (Tonye Jack)
+- Update README.md ([045e031](https://github.com/tj-actions/git-cliff/commit/045e031ab99e28226367751b12d93a8e438e110a))  - (Tonye Jack)
+
+## <!-- 30 -->📝 Other
+
+- PR [#35](https://github.com/tj-actions/git-cliff/pull/35): update peter-evans/create-pull-request action to v5 ([c136695](https://github.com/tj-actions/git-cliff/commit/c136695b659d9280b057ada89e664ead817d2cd2))  - (repo-ranger[bot])
+- PR [#34](https://github.com/tj-actions/git-cliff/pull/34): README.md ([bc70384](https://github.com/tj-actions/git-cliff/commit/bc70384bbc90bb7fc690e6728588c2f74b2447c6))  - (repo-ranger[bot])
+- PR [#33](https://github.com/tj-actions/git-cliff/pull/33): to v1.4.0 ([821dfb2](https://github.com/tj-actions/git-cliff/commit/821dfb235e6665376860b761fc8b0b121116cb4a))  - (repo-ranger[bot])
+
+## <!-- 7 -->⚙️ Miscellaneous Tasks
+
+- **deps:** Update peter-evans/create-pull-request action to v5 ([4896b14](https://github.com/tj-actions/git-cliff/commit/4896b14001cbbec1e03e8f2aa107f14f8745498d))  - (renovate[bot])
+
+## <!-- 9 -->⬆️ Upgrades
+
+- Upgraded from v1.3.0 -> v1.4.0
+ ([65f2aa5](https://github.com/tj-actions/git-cliff/commit/65f2aa5495e63855d29cefbc918321c38d263b5b))  - (jackton1)
+
 # [1.4.0](https://github.com/tj-actions/git-cliff/compare/v1.3.0...v1.4.0) - (2023-04-03)
 
 ## <!-- 0 -->🚀 Features
