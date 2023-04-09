@@ -9,12 +9,12 @@
 Generate changelogs for your project with a generated cliff.toml from [`cliff-template.toml`](./cliff-template.toml) or provide a custom template. This eliminates the need to maintian multiple project config files.
 
 ## Features
-*  Generates changelogs using [git-cliff](https://github.com/orhun/git-cliff).
-*  Utilizes a generic [`cliff-template.toml`](./cliff-template.toml) for easy configuration.
-*  Supports custom templates via file path or URL.
-*  Dynamically replaces values via [Github context object](https://docs.github.com/en/actions/learn-github-actions/contexts)
-*  Falls back to project's cliff.toml if one exists
 
+*   Generates changelogs using [git-cliff](https://github.com/orhun/git-cliff).
+*   Utilizes a generic [`cliff-template.toml`](./cliff-template.toml) for easy configuration.
+*   Supports custom templates via file path or URL.
+*   Dynamically replaces values via [Github context object](https://docs.github.com/en/actions/learn-github-actions/contexts)
+*   Falls back to project's cliff.toml if one exists
 
 ## Usage
 
