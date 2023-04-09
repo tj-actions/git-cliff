@@ -6,7 +6,7 @@
 
 ## git-cliff
 
-Generate changelogs for your project with a generated cliff.toml from [`cliff-template.toml`](./cliff-template.toml) or provide a custom template. This eliminates the need to maintian multiple project config files.
+Generate changelogs for your project with a generated cliff.toml from [`cliff-template.toml`](./cliff-template.toml) or provide a custom template. This eliminates the need to maintian multiple project cliff.toml files.
 
 ## Features
 
