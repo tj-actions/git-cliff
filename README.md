@@ -4,6 +4,8 @@
 [![CI](https://github.com/tj-actions/git-cliff/workflows/CI/badge.svg)](https://github.com/tj-actions/git-cliff/actions?query=workflow%3ACI)
 [![Update release version.](https://github.com/tj-actions/git-cliff/workflows/Update%20release%20version./badge.svg)](https://github.com/tj-actions/git-cliff/actions?query=workflow%3A%22Update+release+version.%22)
 
+![screenzy-1682696580397](https://user-images.githubusercontent.com/17484350/235193271-13592c8a-1f3b-4606-9033-eed5d99ac8e1.png)
+
 ## git-cliff
 
 Generate changelogs for your project with a generated cliff.toml from [`cliff-template.toml`](./cliff-template.toml) or provide a custom template. This eliminates the need to maintian multiple project cliff.toml files.
