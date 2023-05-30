@@ -27,13 +27,20 @@ runs:
         INPUT_REPOSITORY_URL: ${{ github.server_url }}/${{ github.repository }}
         INPUT_TEMPLATE_CONFIG: ${{ inputs.template-config }}
 
-    - name: Generate a changelog
-      uses: orhun/git-cliff-action@v2
+    - name: Setup bin
+      uses: tj-actions/setup-bin@v1
+      id: setup-bin-rust
       with:
-        config: ${{ steps.git-cliff.outputs.output_path }}
-        args: ${{ inputs.args }}
+        repository-owner: orhun
+        repository: git-cliff
+        version: latest
+        language-type: 'rust'
+
+    - name: Generate a changelog
+      run: |
+        ${{ steps.setup-bin-rust.outputs.binary_path }} ${{ inputs.args }} --config ${{ steps.git-cliff.outputs.output_path }}
       env:
-        OUTPUT: ${{ inputs.output }}
+        GIT_CLIFF_OUTPUT: ${{ inputs.output }}
         
     - name: Cleanup
       shell: bash
