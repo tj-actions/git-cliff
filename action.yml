@@ -37,6 +37,7 @@ runs:
         language-type: 'rust'
 
     - name: Generate a changelog
+      shell: bash
       run: |
         ${{ steps.setup-bin-rust.outputs.binary_path }} ${{ inputs.args }} --config ${{ steps.git-cliff.outputs.output_path }}
       env:
