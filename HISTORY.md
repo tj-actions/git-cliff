@@ -1,5 +1,31 @@
 # Changelog
 
+# [1.4.2](https://github.com/tj-actions/git-cliff/compare/v1.4.1...v1.4.2) - (2023-06-06)
+
+## <!-- 26 -->🔄 Update
+
+- Update action.yml ([b8b856a](https://github.com/tj-actions/git-cliff/commit/b8b856ab6829a813d4ed58476b6faaec9c2b24ef))  - (Tonye Jack)
+- Update action.yml ([d85dbe1](https://github.com/tj-actions/git-cliff/commit/d85dbe17e1597432fb94c3cf8db953fc2eaffc81))  - (Tonye Jack)
+- Update action.yml ([8378219](https://github.com/tj-actions/git-cliff/commit/83782193c091a797a97c7b1573e3c6b2a9d8165b))  - (Tonye Jack)
+- Update action.yml ([18318d8](https://github.com/tj-actions/git-cliff/commit/18318d841c3892d6973e96b3b408f47cbd3cd1c2))  - (Tonye Jack)
+- Update README.md ([f729ae2](https://github.com/tj-actions/git-cliff/commit/f729ae2faac90e45ecb142ae66d0f81041417f57))  - (Tonye Jack)
+- Update README.md ([66d7b6e](https://github.com/tj-actions/git-cliff/commit/66d7b6e4707beebc950058ab94720442cab0a641))  - (Tonye Jack)
+- Update README.md ([3a84fda](https://github.com/tj-actions/git-cliff/commit/3a84fda8c305809c9d6b64356a0beedb6f522947))  - (Tonye Jack)
+- Update README.md ([2673907](https://github.com/tj-actions/git-cliff/commit/26739074488c8b8d0d0be3910cc50a9b7041ef0f))  - (Tonye Jack)
+- Updated README.md
+ ([8bb852d](https://github.com/tj-actions/git-cliff/commit/8bb852dc440be58244877fce67a69687f6526eb3))  - (jackton1)
+- Update README.md ([1f8bdc6](https://github.com/tj-actions/git-cliff/commit/1f8bdc6d59fd3a216ce4873cc5a29b266a1b7124))  - (Tonye Jack)
+
+## <!-- 30 -->📝 Other
+
+- PR [#37](https://github.com/tj-actions/git-cliff/pull/37): README.md ([8c3fc40](https://github.com/tj-actions/git-cliff/commit/8c3fc40391945854c85f4d501c0b96a6ca5cf49e))  - (repo-ranger[bot])
+- PR [#36](https://github.com/tj-actions/git-cliff/pull/36): to v1.4.1 ([c234f5d](https://github.com/tj-actions/git-cliff/commit/c234f5d3469f96c637a3ee607dd964b11c01ff11))  - (repo-ranger[bot])
+
+## <!-- 9 -->⬆️ Upgrades
+
+- Upgraded from v1.4.0 -> v1.4.1
+ ([72976fe](https://github.com/tj-actions/git-cliff/commit/72976fe42b551ad723c52651b4d2dffb88b0b46e))  - (jackton1)
+
 # [1.4.1](https://github.com/tj-actions/git-cliff/compare/v1.4.0...v1.4.1) - (2023-04-08)
 
 ## <!-- 26 -->🔄 Update
