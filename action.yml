@@ -1,4 +1,4 @@
-name: Git Cliff action
+name: Generate ChangeLog
 description:  Generate Changelog with a customized template 
 author: tj-actions
 inputs:
