@@ -1,5 +1,77 @@
 # Changelog
 
+# [1.5.0](https://github.com/tj-actions/git-cliff/compare/v1.4.2...v1.5.0) - (2024-03-01)
+
+## <!-- 0 -->🚀 Features
+
+- Add `ci` commit type ([#53](https://github.com/tj-actions/git-cliff/issues/53)) ([5b80224](https://github.com/tj-actions/git-cliff/commit/5b802247f352df9588ae857e3c50456f357030e6))  - (Michael Kriese)
+
+## <!-- 16 -->➕ Add
+
+- Added .github/FUNDING.yml ([5167524](https://github.com/tj-actions/git-cliff/commit/5167524005b1408375f8d7f0d9c041feeeeddddd))  - (Tonye Jack)
+
+## <!-- 17 -->➖ Remove
+
+- Deleted .github/workflows/auto-approve.yml ([c19f186](https://github.com/tj-actions/git-cliff/commit/c19f186592ffd5d6984cf2da0c4e38d5ea3490f7))  - (Tonye Jack)
+- Deleted .github/workflows/greetings.yml ([529aa6a](https://github.com/tj-actions/git-cliff/commit/529aa6acc2ce62b3f6c879eef8e6d485f04aa83e))  - (Tonye Jack)
+- Deleted .github/ISSUE_TEMPLATE/feature_request.yaml ([77ba041](https://github.com/tj-actions/git-cliff/commit/77ba0417dfdd10b503ff507d94103ae877bb465a))  - (Tonye Jack)
+- Deleted .github/ISSUE_TEMPLATE/bug_report.yaml ([5974ecb](https://github.com/tj-actions/git-cliff/commit/5974ecb9db7cbc74881ca951423e489d019e3add))  - (Tonye Jack)
+- Deleted .github/FUNDING.yml ([5b0df87](https://github.com/tj-actions/git-cliff/commit/5b0df873f68529ea690fead5f0a72d351d78c4ae))  - (Tonye Jack)
+- Deleted .github/workflows/auto-merge.yml ([d1b1f8b](https://github.com/tj-actions/git-cliff/commit/d1b1f8bbed7467b7291b18221aa633afa27949bb))  - (Tonye Jack)
+
+## <!-- 26 -->🔄 Update
+
+- Updated README.md ([#57](https://github.com/tj-actions/git-cliff/issues/57))
+
+Co-authored-by: jackton1 <17484350+jackton1@users.noreply.github.com> ([75599f7](https://github.com/tj-actions/git-cliff/commit/75599f745633e29f99bd9e14a30865b7d2fcbe84))  - (tj-actions[bot])
+- Update README.md ([4a075fe](https://github.com/tj-actions/git-cliff/commit/4a075fe78c15642439b2b34682f9d237965e7712))  - (Tonye Jack)
+- Updated .github/FUNDING.yml ([4109a0c](https://github.com/tj-actions/git-cliff/commit/4109a0c89ac7289761301689ebef9ef027debf7d))  - (Tonye Jack)
+- Updated README.md
+ ([9d9aa0a](https://github.com/tj-actions/git-cliff/commit/9d9aa0aa04105494a9b3d72c973248735208b240))  - (jackton1)
+- Updated renovate.json ([555d867](https://github.com/tj-actions/git-cliff/commit/555d867e492e96f4ca0db2458907cae6cd6ce0ad))  - (Tonye Jack)
+- Updated README.md
+ ([073834b](https://github.com/tj-actions/git-cliff/commit/073834b0f65aadc3c4786db60d0254542d08dc47))  - (repo-ranger[bot])
+
+## <!-- 3 -->📚 Documentation
+
+- Add viceice as a contributor for code ([#56](https://github.com/tj-actions/git-cliff/issues/56)) ([c554af3](https://github.com/tj-actions/git-cliff/commit/c554af363dd190943a3e04278827fcd86b27a4ac))  - (allcontributors[bot])
+
+## <!-- 30 -->📝 Other
+
+- PR [#55](https://github.com/tj-actions/git-cliff/pull/55): update tj-actions/verify-changed-files action to v19 ([3dc0c79](https://github.com/tj-actions/git-cliff/commit/3dc0c798014011c42872bb2239f818e7eabbc3c9))  - (repo-ranger[bot])
+- PR [#54](https://github.com/tj-actions/git-cliff/pull/54): update orhun/git-cliff-action action to v3 ([9a3266f](https://github.com/tj-actions/git-cliff/commit/9a3266ff5e7a82c559170ca4d8c7cc99e9943596))  - (repo-ranger[bot])
+- PR [#52](https://github.com/tj-actions/git-cliff/pull/52): update tj-actions/verify-changed-files action to v18 ([508e2e3](https://github.com/tj-actions/git-cliff/commit/508e2e3ef9b63de10f1aa457271e78b9456fcc52))  - (repo-ranger[bot])
+- PR [#51](https://github.com/tj-actions/git-cliff/pull/51): update peter-evans/create-pull-request action to v6 ([ee167e1](https://github.com/tj-actions/git-cliff/commit/ee167e12307321b4db86505428fc2b398f44559d))  - (repo-ranger[bot])
+- PR [#50](https://github.com/tj-actions/git-cliff/pull/50): update tj-actions/verify-changed-files action to v17 ([e5db171](https://github.com/tj-actions/git-cliff/commit/e5db171447fde327496f60ea3829775fbfc88928))  - (repo-ranger[bot])
+- PR [#49](https://github.com/tj-actions/git-cliff/pull/49): update actions/checkout digest to b4ffde6 ([a1f8429](https://github.com/tj-actions/git-cliff/commit/a1f8429d8690acb60a9273520948021810f02bba))  - (repo-ranger[bot])
+- PR [#47](https://github.com/tj-actions/git-cliff/pull/47): update actions/checkout digest to 8ade135 ([83c2d32](https://github.com/tj-actions/git-cliff/commit/83c2d3285248924919d55378d707f9749500e683))  - (repo-ranger[bot])
+- PR [#46](https://github.com/tj-actions/git-cliff/pull/46): update actions/checkout action to v4 ([eb982fc](https://github.com/tj-actions/git-cliff/commit/eb982fc6f599fc31b1ae93fdc0ce763813c25c0e))  - (repo-ranger[bot])
+- PR [#45](https://github.com/tj-actions/git-cliff/pull/45): update tj-actions/release-tagger action to v4 ([c608e62](https://github.com/tj-actions/git-cliff/commit/c608e628d34213be441eb5532f3384b630a3e8d0))  - (repo-ranger[bot])
+- PR [#44](https://github.com/tj-actions/git-cliff/pull/44): README.md ([138a394](https://github.com/tj-actions/git-cliff/commit/138a39425712d7970869ce39c2165f90dadd8a40))  - (repo-ranger[bot])
+- PR [#42](https://github.com/tj-actions/git-cliff/pull/42): update tj-actions/verify-changed-files action to v16 ([81e717e](https://github.com/tj-actions/git-cliff/commit/81e717e153986e24f33455224c36547f0cd25ea4))  - (repo-ranger[bot])
+- PR [#39](https://github.com/tj-actions/git-cliff/pull/39): README.md ([6dc0064](https://github.com/tj-actions/git-cliff/commit/6dc0064f2e9bb6362d5bc8f9d3f34ae075ac2dea))  - (repo-ranger[bot])
+- PR [#40](https://github.com/tj-actions/git-cliff/pull/40): to v1.4.2 ([7b2bbc5](https://github.com/tj-actions/git-cliff/commit/7b2bbc5d60ffbb6824d5811054e0cd5a9d7a5c3b))  - (repo-ranger[bot])
+
+## <!-- 7 -->⚙️ Miscellaneous Tasks
+
+- **deps:** Update tj-actions/verify-changed-files action to v19 ([88859da](https://github.com/tj-actions/git-cliff/commit/88859daa4ed721b06a15f791fd13d0193a1959c9))  - (renovate[bot])
+- **deps:** Update orhun/git-cliff-action action to v3 ([abd0263](https://github.com/tj-actions/git-cliff/commit/abd0263f20f14f36615cbfbc922aa975b95a56ed))  - (renovate[bot])
+- **deps:** Update tj-actions/verify-changed-files action to v18 ([76d0591](https://github.com/tj-actions/git-cliff/commit/76d059186618687840abbeccb9497257c8207594))  - (renovate[bot])
+- **deps:** Update peter-evans/create-pull-request action to v6 ([5dbba06](https://github.com/tj-actions/git-cliff/commit/5dbba0623c07d4782c9fcf7450c2139f8370ad72))  - (renovate[bot])
+- **deps:** Update tj-actions/verify-changed-files action to v17 ([4588fb9](https://github.com/tj-actions/git-cliff/commit/4588fb960e10e84ca88943b9467e98a5bb92898d))  - (renovate[bot])
+- **deps:** Update actions/checkout digest to b4ffde6 ([5f6eed1](https://github.com/tj-actions/git-cliff/commit/5f6eed14c3e97999fb944e23a4c4b584469d722f))  - (renovate[bot])
+- **deps:** Update actions/checkout digest to 8ade135 ([78675b1](https://github.com/tj-actions/git-cliff/commit/78675b1b78574303c55546905b3cb80d5dba0167))  - (renovate[bot])
+- **deps:** Update actions/checkout action to v4 ([371997b](https://github.com/tj-actions/git-cliff/commit/371997beebe47f907b80673941e41e74ac8b9dab))  - (renovate[bot])
+- **deps:** Update tj-actions/release-tagger action to v4 ([e248fe1](https://github.com/tj-actions/git-cliff/commit/e248fe1cd52abc34e16122e18a7342490ad42a1f))  - (renovate[bot])
+- **deps:** Update tj-actions/auto-doc action to v3 ([#43](https://github.com/tj-actions/git-cliff/issues/43)) ([ea1a3aa](https://github.com/tj-actions/git-cliff/commit/ea1a3aae74b7f4377c118f1b8c9b98ce36cdc56d))  - (renovate[bot])
+- **deps:** Update tj-actions/verify-changed-files action to v16 ([2aeab75](https://github.com/tj-actions/git-cliff/commit/2aeab75a21bbe3e7a7f5d3312a4c5f502605b41a))  - (renovate[bot])
+- **deps:** Update tj-actions/verify-changed-files action to v15 ([1c853e6](https://github.com/tj-actions/git-cliff/commit/1c853e61d38d6087720a60f34fa0515a052e1b74))  - (renovate[bot])
+
+## <!-- 9 -->⬆️ Upgrades
+
+- Upgraded from v1.4.1 -> v1.4.2
+ ([50865ad](https://github.com/tj-actions/git-cliff/commit/50865ad11bae7a8b256e6a0eb7c232c064aa5695))  - (jackton1)
+
 # [1.4.2](https://github.com/tj-actions/git-cliff/compare/v1.4.1...v1.4.2) - (2023-06-06)
 
 ## <!-- 26 -->🔄 Update
