@@ -1,17 +1,17 @@
 [![Ubuntu](https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge\&logo=ubuntu\&logoColor=white)](https://docs.github.com/en/actions/reference/workflow-syntax-for-github-actions#jobsjob_idruns-on)
-<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
-<!-- ALL-CONTRIBUTORS-BADGE:END -->
 [![Public workflows that use this action.](https://img.shields.io/endpoint?style=for-the-badge\&url=https%3A%2F%2Fused-by.vercel.app%2Fapi%2Fgithub-actions%2Fused-by%3Faction%3Dtj-actions%2Fgit-cliff%26badge%3Dtrue)](https://github.com/search?o=desc\&q=tj-actions+git-cliff+path%3A.github%2Fworkflows+language%3AYAML\&s=\&type=Code)
-
 [![CI](https://github.com/tj-actions/git-cliff/workflows/CI/badge.svg)](https://github.com/tj-actions/git-cliff/actions?query=workflow%3ACI)
 [![Update release version.](https://github.com/tj-actions/git-cliff/workflows/Update%20release%20version./badge.svg)](https://github.com/tj-actions/git-cliff/actions?query=workflow%3A%22Update+release+version.%22)
 
-![screenzy-1682696580397](https://user-images.githubusercontent.com/17484350/235193271-13592c8a-1f3b-4606-9033-eed5d99ac8e1.png)
+<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
+[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
+<!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 ## git-cliff
 
-Generate changelogs for your project with a generated cliff.toml from [`cliff-template.toml`](./cliff-template.toml) or provide a custom template. This eliminates the need to maintian multiple project cliff.toml files.
+Generate changelogs for your project with a generated cliff.toml from [`cliff-template.toml`](./cliff-template.toml) or provide a custom template. This eliminates the need to maintain multiple project cliff.toml files.
+
+![screenzy-1682696580397](https://user-images.githubusercontent.com/17484350/235193271-13592c8a-1f3b-4606-9033-eed5d99ac8e1.png)
 
 ## Features
 
