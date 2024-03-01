@@ -1,0 +1,26 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "commitType": "docs",
+  "commitConvention": "angular",
+  "contributors": [
+    {
+      "login": "viceice",
+      "name": "Michael Kriese",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1798109?v=4",
+      "profile": "https://visualon.de",
+      "contributions": [
+        "code"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "skipCi": true,
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "projectName": "git-cliff",
+  "projectOwner": "tj-actions"
+}
