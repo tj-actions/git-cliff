@@ -13,6 +13,10 @@ inputs:
   template-config:
     description: "Path or URL to the template `cliff.toml` config file. See [`cliff-template.toml`](./cliff-template.toml) for a working example. **NOTE:** Only the `REPOSITORY_URL` is substituted."
     required: false
+  git-cliff-version:
+    description: "Provide the version for git-cliff"
+    required: false
+    default: "v2.5.0"
 
 runs:
   using: 'composite'
@@ -32,6 +36,7 @@ runs:
       with:
         config: ${{ steps.git-cliff.outputs.output_path }}
         args: ${{ inputs.args }}
+        version: ${{ inputs.git-cliff-version }}
       env:
         OUTPUT: ${{ inputs.output }}
         
