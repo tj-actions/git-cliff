@@ -1,5 +1,9 @@
 name: Format README.md
 
+permissions:
+  contents: write
+  pull-requests: write
+
 on:
   push:
     branches:
@@ -34,7 +38,7 @@ jobs:
 
       - name: Create Pull Request
         if: failure()
-        uses: peter-evans/create-pull-request@v7
+        uses: peter-evans/create-pull-request@271a8d0340265f705b14b6d32b9829c1cb33d45e # v7.0.8
         with:
           base: "main"
           labels: "merge when passing"
@@ -42,4 +46,5 @@ jobs:
           branch: "chore/update-readme"
           commit-message: "Updated README.md"
           body: "Updated README.md"
-          token: ${{ secrets.PAT_TOKEN }}
+          sign-commits: true
+          token: ${{ secrets.GITHUB_TOKEN }}
