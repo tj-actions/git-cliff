@@ -27,13 +27,21 @@ runs:
         INPUT_REPOSITORY_URL: ${{ github.server_url }}/${{ github.repository }}
         INPUT_TEMPLATE_CONFIG: ${{ inputs.template-config }}
 
-    - name: Generate a changelog
-      uses: orhun/git-cliff-action@v4
+    - name: Install git-cliff
+      id: install-git-cliff
+      uses: ./
       with:
-        config: ${{ steps.git-cliff.outputs.output_path }}
-        args: ${{ inputs.args }}
-      env:
-        OUTPUT: ${{ inputs.output }}
+        token: ${{ secrets.GITHUB_TOKEN }}
+        repository-owner: orhun
+        repository: git-cliff
+        language-type: rust
+        add-prefix-to-version: false
+
+    - name: Generate a changelog
+      shell: bash
+      run: |
+        ${{ steps.install-git-cliff.outputs.binary_path }} --config "${{ steps.git-cliff.outputs.output_path }}" \
+          ${{ inputs.args }} --output "${{ inputs.output }}"
         
     - name: Cleanup
       shell: bash
