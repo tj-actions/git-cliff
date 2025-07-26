@@ -45,7 +45,8 @@ runs:
       shell: bash
       run: |
         ${{ steps.install-git-cliff.outputs.binary_path }} --config "${{ steps.git-cliff.outputs.output_path }}" \
-          ${{ inputs.args }} --output "${{ inputs.output }}"
+          --output "${{ inputs.output }}" \
+          ${{ inputs.args }}
         
     - name: Cleanup
       shell: bash
