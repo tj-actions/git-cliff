@@ -2,10 +2,6 @@ name: Changelogs generated with git-cliff
 description:  Generate Changelog with a customized template 
 author: tj-actions
 inputs:
-  args:
-    description: "Extra args passed directly to [git-cliff](https://github.com/orhun/git-cliff#command-line-arguments)"
-    required: false
-    default: "--verbose"
   output:
     description: "Output file"
     required: false
@@ -46,7 +42,7 @@ runs:
       run: |
         ${{ steps.install-git-cliff.outputs.binary_path }} --config "${{ steps.git-cliff.outputs.output_path }}" \
           --output "${{ inputs.output }}" \
-          ${{ inputs.args }}
+          --verbose
         
     - name: Cleanup
       shell: bash
