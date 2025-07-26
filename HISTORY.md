@@ -1,5 +1,17 @@
 # Changelog
 
+# [2.0.2](https://github.com/tj-actions/git-cliff/compare/v2.0.1...v2.0.2) - (2025-07-26)
+
+## <!-- 26 -->🔄 Update
+
+- Update README.md ([7b2afa2](https://github.com/tj-actions/git-cliff/commit/7b2afa2d0b650c50cde5a7b173a74753ecd29072))  - (Tonye Jack)
+
+## <!-- 9 -->⬆️ Upgrades
+
+- Upgraded from v2.0.0 -> v2.0.1 ([#77](https://github.com/tj-actions/git-cliff/issues/77))
+
+Co-authored-by: github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com> ([71efdfc](https://github.com/tj-actions/git-cliff/commit/71efdfcf639630c57afe38d95a715c77aeabbe4e))  - (github-actions[bot])
+
 # [2.0.1](https://github.com/tj-actions/git-cliff/compare/v2.0.0...v2.0.1) - (2025-07-26)
 
 ## <!-- 26 -->🔄 Update
