@@ -35,7 +35,7 @@ runs:
       id: install-git-cliff
       uses: ./
       with:
-        token: ${{ inputd.token }}
+        token: ${{ inputs.token }}
         repository-owner: orhun
         repository: git-cliff
         language-type: rust
