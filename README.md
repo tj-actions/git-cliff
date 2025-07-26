@@ -41,11 +41,30 @@ Generate changelogs for your project with a generated cliff.toml from [`cliff-te
 
 <!-- AUTO-DOC-INPUT:START - Do not remove or modify this section -->
 
-|                                     INPUT                                     |  TYPE  | REQUIRED |         DEFAULT         |                                                                                             DESCRIPTION                                                                                              |
-|-------------------------------------------------------------------------------|--------|----------|-------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|              <a name="input_output"></a>[output](#input_output)               | string |  false   |     `"HISTORY.md"`      |                                                                                             Output file                                                                                              |
-| <a name="input_template-config"></a>[template-config](#input_template-config) | string |  false   |                         | Path or URL to the <br>template `cliff.toml` config file. See <br>[`cliff-template.toml`](./cliff-template.toml) for a working example. <br>**NOTE:** Only the `REPOSITORY_URL` is <br>substituted.  |
-|                <a name="input_token"></a>[token](#input_token)                | string |  false   | `"${{ github.token }}"` |                                                                                GITHUB\_TOKEN or a Repo scoped <br>PAT                                                                                 |
+```yaml
+- uses: tj-actions/git-cliff@7b2afa2d0b650c50cde5a7b173a74753ecd29072 # v2
+  id: git-cliff
+  with:
+    # Output file
+    # Type: string
+    # Default: "HISTORY.md"
+    output: ''
+
+    # Path or URL to the 
+    # template `cliff.toml` config file. See 
+    # [`cliff-template.toml`](./cliff-template.toml) for a working example. 
+    # **NOTE:** Only the `REPOSITORY_URL` is 
+    # substituted. 
+    # Type: string
+    template-config: ''
+
+    # GITHUB_TOKEN or a Repo scoped 
+    # PAT 
+    # Type: string
+    # Default: "${{ github.token }}"
+    token: ''
+
+```
 
 <!-- AUTO-DOC-INPUT:END -->
 
