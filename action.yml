@@ -2,10 +2,6 @@ name: Changelogs generated with git-cliff
 description:  Generate Changelog with a customized template 
 author: tj-actions
 inputs:
-  args:
-    description: "Extra args passed directly to [git-cliff](https://github.com/orhun/git-cliff#command-line-arguments)"
-    required: false
-    default: "--verbose"
   output:
     description: "Output file"
     required: false
@@ -13,6 +9,10 @@ inputs:
   template-config:
     description: "Path or URL to the template `cliff.toml` config file. See [`cliff-template.toml`](./cliff-template.toml) for a working example. **NOTE:** Only the `REPOSITORY_URL` is substituted."
     required: false
+  token:
+    description: 'GITHUB_TOKEN or a Repo scoped PAT'
+    required: false
+    default: ${{ github.token }}
 
 runs:
   using: 'composite'
@@ -27,13 +27,22 @@ runs:
         INPUT_REPOSITORY_URL: ${{ github.server_url }}/${{ github.repository }}
         INPUT_TEMPLATE_CONFIG: ${{ inputs.template-config }}
 
-    - name: Generate a changelog
-      uses: orhun/git-cliff-action@v4
+    - name: Install git-cliff
+      id: install-git-cliff
+      uses: tj-actions/setup-bin@v1.2.3
       with:
-        config: ${{ steps.git-cliff.outputs.output_path }}
-        args: ${{ inputs.args }}
-      env:
-        OUTPUT: ${{ inputs.output }}
+        token: ${{ inputs.token }}
+        repository-owner: orhun
+        repository: git-cliff
+        language-type: rust
+        add-prefix-to-version: false
+
+    - name: Generate a changelog
+      shell: bash
+      run: |
+        ${{ steps.install-git-cliff.outputs.binary_path }} --config "${{ steps.git-cliff.outputs.output_path }}" \
+          --output "${{ inputs.output }}" \
+          --verbose
         
     - name: Cleanup
       shell: bash
