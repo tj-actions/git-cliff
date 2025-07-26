@@ -64,7 +64,6 @@ If you feel generous and want to show some extra appreciation:
 This package was created with [Cookiecutter](https://github.com/cookiecutter/cookiecutter) using [cookiecutter-action](https://github.com/tj-actions/cookiecutter-action)
 
 *   [git-cliff](https://github.com/orhun/git-cliff)
-*   [git-cliff-action](https://github.com/orhun/git-cliff-action)
 
 ## Report Bugs
 
