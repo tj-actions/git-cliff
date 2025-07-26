@@ -33,7 +33,7 @@ runs:
 
     - name: Install git-cliff
       id: install-git-cliff
-      uses: ./
+      uses: tj-actions/setup-bin@v1.2.3
       with:
         token: ${{ inputs.token }}
         repository-owner: orhun
