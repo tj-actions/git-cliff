@@ -34,7 +34,7 @@ Generate changelogs for your project with a generated cliff.toml from [`cliff-te
         with:
           fetch-depth: 0
       - name: Run git-cliff
-        uses: tj-actions/git-cliff@v1
+        uses: tj-actions/git-cliff@ddd27990c7938f1ba63ec6791dbda7f04e4b8049 # v2.0.1
 ```
 
 ## Inputs
