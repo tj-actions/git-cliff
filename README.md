@@ -45,6 +45,12 @@ Generate changelogs for your project with a generated cliff.toml from [`cliff-te
 - uses: tj-actions/git-cliff@7b2afa2d0b650c50cde5a7b173a74753ecd29072 # v2
   id: git-cliff
   with:
+    # Extra args passed directly to 
+    # [git-cliff](https://github.com/orhun/git-cliff#command-line-arguments) 
+    # Type: string
+    # Default: "--verbose"
+    args: ''
+
     # Output file
     # Type: string
     # Default: "HISTORY.md"
