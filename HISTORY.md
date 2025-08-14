@@ -1,5 +1,35 @@
 # Changelog
 
+# [2.1.0](https://github.com/tj-actions/git-cliff/compare/v2.0.2...v2.1.0) - (2025-08-14)
+
+## <!-- 0 -->🚀 Features
+
+- Add args back ([#81](https://github.com/tj-actions/git-cliff/issues/81)) ([33bb6a7](https://github.com/tj-actions/git-cliff/commit/33bb6a779b996bf1fdf89dd734a11f638566617b))  - (Tonye Jack)
+
+## <!-- 26 -->🔄 Update
+
+- Updated README.md ([#82](https://github.com/tj-actions/git-cliff/issues/82))
+
+Co-authored-by: github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com> ([8bfb7bf](https://github.com/tj-actions/git-cliff/commit/8bfb7bf10268aed30bde8e34ecaeddb6c6149edd))  - (github-actions[bot])
+- Updated README.md ([#79](https://github.com/tj-actions/git-cliff/issues/79))
+
+Co-authored-by: github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com> ([2191262](https://github.com/tj-actions/git-cliff/commit/21912623c3ff3ac1fdf96dcad366b56859832c76))  - (github-actions[bot])
+- Update update-readme.yml ([e0524d8](https://github.com/tj-actions/git-cliff/commit/e0524d8a613748631b1edc2516b54faf862515c9))  - (Tonye Jack)
+- Update README.md ([e9a600b](https://github.com/tj-actions/git-cliff/commit/e9a600b19ae286873e98da0666ccf486908de762))  - (Tonye Jack)
+
+## <!-- 9 -->⬆️ Upgrades
+
+- Upgraded to v2.0.2 ([#78](https://github.com/tj-actions/git-cliff/issues/78))
+
+* Upgraded from v2.0.1 -> v2.0.2
+
+* Update README.md
+
+---------
+
+Co-authored-by: github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>
+Co-authored-by: Tonye Jack <jtonye@ymail.com> ([2501a78](https://github.com/tj-actions/git-cliff/commit/2501a781fd4b710c2337ee1f37f95cdfdaa55e01))  - (github-actions[bot])
+
 # [2.0.2](https://github.com/tj-actions/git-cliff/compare/v2.0.1...v2.0.2) - (2025-07-26)
 
 ## <!-- 26 -->🔄 Update
