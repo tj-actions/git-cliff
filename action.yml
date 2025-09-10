@@ -13,6 +13,10 @@ inputs:
   template-config:
     description: "Path or URL to the template `cliff.toml` config file. See [`cliff-template.toml`](./cliff-template.toml) for a working example. **NOTE:** Only the `REPOSITORY_URL` is substituted."
     required: false
+  git-cliff-version:
+    description: "Provide the version for git-cliff. e.g latest, v2.10.0"
+    required: false
+    default: "latest"
   token:
     description: 'GITHUB_TOKEN or a Repo scoped PAT'
     required: false
@@ -40,6 +44,7 @@ runs:
         repository: git-cliff
         language-type: rust
         add-prefix-to-version: false
+        version: ${{ inputs.git-cliff-version }}
 
     - name: Generate a changelog
       shell: bash
