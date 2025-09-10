@@ -34,7 +34,7 @@ Generate changelogs for your project with a generated cliff.toml from [`cliff-te
         with:
           fetch-depth: 0
       - name: Run git-cliff
-        uses: tj-actions/git-cliff@8bfb7bf10268aed30bde8e34ecaeddb6c6149edd # v2
+        uses: tj-actions/git-cliff@679041f051a4d2ab452f7e5e7b0eed2abee21131 # v2
 ```
 
 ## Inputs
@@ -42,7 +42,7 @@ Generate changelogs for your project with a generated cliff.toml from [`cliff-te
 <!-- AUTO-DOC-INPUT:START - Do not remove or modify this section -->
 
 ```yaml
-- uses: tj-actions/git-cliff@8bfb7bf10268aed30bde8e34ecaeddb6c6149edd # v2
+- uses: tj-actions/git-cliff@679041f051a4d2ab452f7e5e7b0eed2abee21131 # v2
   id: git-cliff
   with:
     # Extra args passed directly to 
