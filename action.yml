@@ -14,9 +14,9 @@ inputs:
     description: "Path or URL to the template `cliff.toml` config file. See [`cliff-template.toml`](./cliff-template.toml) for a working example. **NOTE:** Only the `REPOSITORY_URL` is substituted."
     required: false
   git-cliff-version:
-    description: "Provide the version for git-cliff"
+    description: "Provide the version for git-cliff. e.g latest, v2.10.0"
     required: false
-    default: "v2.10.0"
+    default: "latest"
   token:
     description: 'GITHUB_TOKEN or a Repo scoped PAT'
     required: false
