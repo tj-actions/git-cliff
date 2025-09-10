@@ -51,6 +51,12 @@ Generate changelogs for your project with a generated cliff.toml from [`cliff-te
     # Default: "--verbose"
     args: ''
 
+    # Provide the version for git-cliff. 
+    # e.g latest, v2.10.0 
+    # Type: string
+    # Default: "latest"
+    git-cliff-version: ''
+
     # Output file
     # Type: string
     # Default: "HISTORY.md"
