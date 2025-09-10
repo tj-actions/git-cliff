@@ -1,5 +1,107 @@
 # Changelog
 
+# [2.1.0](https://github.com/tj-actions/git-cliff/compare/v2.0.2...v2.1.0) - (2025-08-14)
+
+## <!-- 0 -->🚀 Features
+
+- Add args back ([#81](https://github.com/tj-actions/git-cliff/issues/81)) ([33bb6a7](https://github.com/tj-actions/git-cliff/commit/33bb6a779b996bf1fdf89dd734a11f638566617b))  - (Tonye Jack)
+
+## <!-- 26 -->🔄 Update
+
+- Updated README.md ([#82](https://github.com/tj-actions/git-cliff/issues/82))
+
+Co-authored-by: github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com> ([8bfb7bf](https://github.com/tj-actions/git-cliff/commit/8bfb7bf10268aed30bde8e34ecaeddb6c6149edd))  - (github-actions[bot])
+- Updated README.md ([#79](https://github.com/tj-actions/git-cliff/issues/79))
+
+Co-authored-by: github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com> ([2191262](https://github.com/tj-actions/git-cliff/commit/21912623c3ff3ac1fdf96dcad366b56859832c76))  - (github-actions[bot])
+- Update update-readme.yml ([e0524d8](https://github.com/tj-actions/git-cliff/commit/e0524d8a613748631b1edc2516b54faf862515c9))  - (Tonye Jack)
+- Update README.md ([e9a600b](https://github.com/tj-actions/git-cliff/commit/e9a600b19ae286873e98da0666ccf486908de762))  - (Tonye Jack)
+
+## <!-- 9 -->⬆️ Upgrades
+
+- Upgraded to v2.0.2 ([#78](https://github.com/tj-actions/git-cliff/issues/78))
+
+* Upgraded from v2.0.1 -> v2.0.2
+
+* Update README.md
+
+---------
+
+Co-authored-by: github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>
+Co-authored-by: Tonye Jack <jtonye@ymail.com> ([2501a78](https://github.com/tj-actions/git-cliff/commit/2501a781fd4b710c2337ee1f37f95cdfdaa55e01))  - (github-actions[bot])
+
+# [2.0.2](https://github.com/tj-actions/git-cliff/compare/v2.0.1...v2.0.2) - (2025-07-26)
+
+## <!-- 26 -->🔄 Update
+
+- Update README.md ([7b2afa2](https://github.com/tj-actions/git-cliff/commit/7b2afa2d0b650c50cde5a7b173a74753ecd29072))  - (Tonye Jack)
+
+## <!-- 9 -->⬆️ Upgrades
+
+- Upgraded from v2.0.0 -> v2.0.1 ([#77](https://github.com/tj-actions/git-cliff/issues/77))
+
+Co-authored-by: github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com> ([71efdfc](https://github.com/tj-actions/git-cliff/commit/71efdfcf639630c57afe38d95a715c77aeabbe4e))  - (github-actions[bot])
+
+# [2.0.1](https://github.com/tj-actions/git-cliff/compare/v2.0.0...v2.0.1) - (2025-07-26)
+
+## <!-- 26 -->🔄 Update
+
+- Update sync-release-version.yml ([ddd2799](https://github.com/tj-actions/git-cliff/commit/ddd27990c7938f1ba63ec6791dbda7f04e4b8049))  - (Tonye Jack)
+
+# [2.0.0](https://github.com/tj-actions/git-cliff/compare/v1.5.0...v2.0.0) - (2025-07-26)
+
+## <!-- 0 -->🚀 Features
+
+- Update to use git-cliff binary ([#75](https://github.com/tj-actions/git-cliff/issues/75)) ([29ae721](https://github.com/tj-actions/git-cliff/commit/29ae7211b4d241341d0324b2c1eb8a1eaa0ca24f))  - (Tonye Jack)
+
+## <!-- 17 -->➖ Remove
+
+- Deleted .github/workflows/rebase.yml ([6bd3583](https://github.com/tj-actions/git-cliff/commit/6bd3583581c4f41b42d1f9ad5d8b97bf377c03f8))  - (Tonye Jack)
+- Deleted renovate.json ([62ea915](https://github.com/tj-actions/git-cliff/commit/62ea915b8c2231d11d551618ded19f573b2e5c27))  - (Tonye Jack)
+
+## <!-- 26 -->🔄 Update
+
+- Updated README.md ([#76](https://github.com/tj-actions/git-cliff/issues/76))
+
+Co-authored-by: github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com> ([06f22a5](https://github.com/tj-actions/git-cliff/commit/06f22a5dac9c859c545e4d76f8990313bda589dc))  - (github-actions[bot])
+- Update update-readme.yml ([98d81b5](https://github.com/tj-actions/git-cliff/commit/98d81b55bee8c50886c203e54269ff53dedfc869))  - (Tonye Jack)
+- Updated README.md ([#63](https://github.com/tj-actions/git-cliff/issues/63))
+
+Co-authored-by: jackton1 <17484350+jackton1@users.noreply.github.com> ([f38d86a](https://github.com/tj-actions/git-cliff/commit/f38d86a87c7799739ea79b21c2dfa76a5d9c4283))  - (tj-actions[bot])
+
+## <!-- 3 -->📚 Documentation
+
+- Add boidolr as a contributor for doc ([#62](https://github.com/tj-actions/git-cliff/issues/62)) ([2a43b54](https://github.com/tj-actions/git-cliff/commit/2a43b547e1af2f5cd9c1780374c1e332a7e3253d))  - (allcontributors[bot])
+- Update checkout action ([#59](https://github.com/tj-actions/git-cliff/issues/59)) ([c8a4e11](https://github.com/tj-actions/git-cliff/commit/c8a4e117f989f5bd76feba1489bb2d6ec1efc0ce))  - (Raphael Boidol)
+
+## <!-- 30 -->📝 Other
+
+- PR [#67](https://github.com/tj-actions/git-cliff/pull/67): update actions/checkout digest to a5ac7e5 ([187c550](https://github.com/tj-actions/git-cliff/commit/187c5509a7199da8432bb6734829a4b53bba375f))  - (repo-ranger[bot])
+- PR [#66](https://github.com/tj-actions/git-cliff/pull/66): update actions/checkout digest to 0ad4b8f ([a2e6c8c](https://github.com/tj-actions/git-cliff/commit/a2e6c8c469dd8123c1e576d86f8c3a7b72736b10))  - (repo-ranger[bot])
+- PR [#65](https://github.com/tj-actions/git-cliff/pull/65): update actions/checkout digest to 44c2b7a ([97212e8](https://github.com/tj-actions/git-cliff/commit/97212e8a43059940885aecf02db2b238bc66a229))  - (repo-ranger[bot])
+- PR [#64](https://github.com/tj-actions/git-cliff/pull/64): update tj-actions/verify-changed-files action to v20 ([bed3352](https://github.com/tj-actions/git-cliff/commit/bed3352175ee9d1133e879388c2e22e7bd451ed0))  - (repo-ranger[bot])
+- PR [#61](https://github.com/tj-actions/git-cliff/pull/61): update actions/checkout digest to 0ad4b8f ([452b36c](https://github.com/tj-actions/git-cliff/commit/452b36c5b4b4d78f34027ea714907ad514da883b))  - (repo-ranger[bot])
+- PR [#60](https://github.com/tj-actions/git-cliff/pull/60): update actions/checkout digest to 1d96c77 ([448f9ff](https://github.com/tj-actions/git-cliff/commit/448f9ff16565066cb032fc861ffd20063393fd25))  - (repo-ranger[bot])
+- PR [#58](https://github.com/tj-actions/git-cliff/pull/58): to v1.5.0 ([ea64333](https://github.com/tj-actions/git-cliff/commit/ea643330517691fb96337f60c44371e42d67f05d))  - (repo-ranger[bot])
+
+## <!-- 7 -->⚙️ Miscellaneous Tasks
+
+- **deps:** Update actions/checkout digest to 11bd719 ([21f21bc](https://github.com/tj-actions/git-cliff/commit/21f21bc7a75adf33e8b4c910c06e2a61dec07915))  - (renovate[bot])
+- **deps:** Update actions/checkout digest to eef6144 ([c028f16](https://github.com/tj-actions/git-cliff/commit/c028f1664bfd48b6fdeb4c7859b82341f9c22179))  - (renovate[bot])
+- **deps:** Update peter-evans/create-pull-request action to v7 ([#70](https://github.com/tj-actions/git-cliff/issues/70)) ([32f9c17](https://github.com/tj-actions/git-cliff/commit/32f9c17d0f09f2a09841dc728addc6ffd7f8b419))  - (renovate[bot])
+- **deps:** Update orhun/git-cliff-action action to v4 ([#69](https://github.com/tj-actions/git-cliff/issues/69)) ([62dd369](https://github.com/tj-actions/git-cliff/commit/62dd369e067292a4e0d4e84fd3e9d046ed11bc85))  - (renovate[bot])
+- **deps:** Update actions/checkout digest to 692973e ([3ee6916](https://github.com/tj-actions/git-cliff/commit/3ee6916dce0f104be52cb8e914b08a119c75cd9e))  - (renovate[bot])
+- **deps:** Update actions/checkout digest to a5ac7e5 ([39b1f01](https://github.com/tj-actions/git-cliff/commit/39b1f010303c87d76b24da0e25fd264fe131f43e))  - (renovate[bot])
+- **deps:** Update actions/checkout digest to 0ad4b8f ([e1f7901](https://github.com/tj-actions/git-cliff/commit/e1f79012a6b14af1082aa90b533a84fa27c237bb))  - (renovate[bot])
+- **deps:** Update actions/checkout digest to 44c2b7a ([b7d0d04](https://github.com/tj-actions/git-cliff/commit/b7d0d04730c48a4a1fc0d3423ad0fded18c0690f))  - (renovate[bot])
+- **deps:** Update tj-actions/verify-changed-files action to v20 ([61e095a](https://github.com/tj-actions/git-cliff/commit/61e095a91980defdcb0a80b444380713da4aabef))  - (renovate[bot])
+- **deps:** Update actions/checkout digest to 0ad4b8f ([9cb0b72](https://github.com/tj-actions/git-cliff/commit/9cb0b729cc67a09bde8b8ee9470ca22c761146d4))  - (renovate[bot])
+- **deps:** Update actions/checkout digest to 1d96c77 ([77239e9](https://github.com/tj-actions/git-cliff/commit/77239e98233354286055bea7a7bb4b6cfd7fb45c))  - (renovate[bot])
+
+## <!-- 9 -->⬆️ Upgrades
+
+- Upgraded from v1.4.2 -> v1.5.0 ([c39e69e](https://github.com/tj-actions/git-cliff/commit/c39e69e4d1755310e5c720ab4e9a9effddb72627))  - (jackton1)
+
 # [1.5.0](https://github.com/tj-actions/git-cliff/compare/v1.4.2...v1.5.0) - (2024-03-01)
 
 ## <!-- 0 -->🚀 Features
@@ -26,11 +128,9 @@
 Co-authored-by: jackton1 <17484350+jackton1@users.noreply.github.com> ([75599f7](https://github.com/tj-actions/git-cliff/commit/75599f745633e29f99bd9e14a30865b7d2fcbe84))  - (tj-actions[bot])
 - Update README.md ([4a075fe](https://github.com/tj-actions/git-cliff/commit/4a075fe78c15642439b2b34682f9d237965e7712))  - (Tonye Jack)
 - Updated .github/FUNDING.yml ([4109a0c](https://github.com/tj-actions/git-cliff/commit/4109a0c89ac7289761301689ebef9ef027debf7d))  - (Tonye Jack)
-- Updated README.md
- ([9d9aa0a](https://github.com/tj-actions/git-cliff/commit/9d9aa0aa04105494a9b3d72c973248735208b240))  - (jackton1)
+- Updated README.md ([9d9aa0a](https://github.com/tj-actions/git-cliff/commit/9d9aa0aa04105494a9b3d72c973248735208b240))  - (jackton1)
 - Updated renovate.json ([555d867](https://github.com/tj-actions/git-cliff/commit/555d867e492e96f4ca0db2458907cae6cd6ce0ad))  - (Tonye Jack)
-- Updated README.md
- ([073834b](https://github.com/tj-actions/git-cliff/commit/073834b0f65aadc3c4786db60d0254542d08dc47))  - (repo-ranger[bot])
+- Updated README.md ([073834b](https://github.com/tj-actions/git-cliff/commit/073834b0f65aadc3c4786db60d0254542d08dc47))  - (repo-ranger[bot])
 
 ## <!-- 3 -->📚 Documentation
 
@@ -69,8 +169,7 @@ Co-authored-by: jackton1 <17484350+jackton1@users.noreply.github.com> ([75599f7]
 
 ## <!-- 9 -->⬆️ Upgrades
 
-- Upgraded from v1.4.1 -> v1.4.2
- ([50865ad](https://github.com/tj-actions/git-cliff/commit/50865ad11bae7a8b256e6a0eb7c232c064aa5695))  - (jackton1)
+- Upgraded from v1.4.1 -> v1.4.2 ([50865ad](https://github.com/tj-actions/git-cliff/commit/50865ad11bae7a8b256e6a0eb7c232c064aa5695))  - (jackton1)
 
 # [1.4.2](https://github.com/tj-actions/git-cliff/compare/v1.4.1...v1.4.2) - (2023-06-06)
 
@@ -84,8 +183,7 @@ Co-authored-by: jackton1 <17484350+jackton1@users.noreply.github.com> ([75599f7]
 - Update README.md ([66d7b6e](https://github.com/tj-actions/git-cliff/commit/66d7b6e4707beebc950058ab94720442cab0a641))  - (Tonye Jack)
 - Update README.md ([3a84fda](https://github.com/tj-actions/git-cliff/commit/3a84fda8c305809c9d6b64356a0beedb6f522947))  - (Tonye Jack)
 - Update README.md ([2673907](https://github.com/tj-actions/git-cliff/commit/26739074488c8b8d0d0be3910cc50a9b7041ef0f))  - (Tonye Jack)
-- Updated README.md
- ([8bb852d](https://github.com/tj-actions/git-cliff/commit/8bb852dc440be58244877fce67a69687f6526eb3))  - (jackton1)
+- Updated README.md ([8bb852d](https://github.com/tj-actions/git-cliff/commit/8bb852dc440be58244877fce67a69687f6526eb3))  - (jackton1)
 - Update README.md ([1f8bdc6](https://github.com/tj-actions/git-cliff/commit/1f8bdc6d59fd3a216ce4873cc5a29b266a1b7124))  - (Tonye Jack)
 
 ## <!-- 30 -->📝 Other
@@ -95,8 +193,7 @@ Co-authored-by: jackton1 <17484350+jackton1@users.noreply.github.com> ([75599f7]
 
 ## <!-- 9 -->⬆️ Upgrades
 
-- Upgraded from v1.4.0 -> v1.4.1
- ([72976fe](https://github.com/tj-actions/git-cliff/commit/72976fe42b551ad723c52651b4d2dffb88b0b46e))  - (jackton1)
+- Upgraded from v1.4.0 -> v1.4.1 ([72976fe](https://github.com/tj-actions/git-cliff/commit/72976fe42b551ad723c52651b4d2dffb88b0b46e))  - (jackton1)
 
 # [1.4.1](https://github.com/tj-actions/git-cliff/compare/v1.4.0...v1.4.1) - (2023-04-08)
 
@@ -104,8 +201,7 @@ Co-authored-by: jackton1 <17484350+jackton1@users.noreply.github.com> ([75599f7]
 
 - Update sync-release-version.yml ([57fe1d0](https://github.com/tj-actions/git-cliff/commit/57fe1d0ae7e42148a6cb4b5db02af6b734a042df))  - (Tonye Jack)
 - Update README.md ([a29d2c7](https://github.com/tj-actions/git-cliff/commit/a29d2c70abf64de53bd366b60a5620ec32ec249e))  - (Tonye Jack)
-- Updated README.md
- ([d66d804](https://github.com/tj-actions/git-cliff/commit/d66d8046a53c845c343dad611eee919aa86e3d6d))  - (jackton1)
+- Updated README.md ([d66d804](https://github.com/tj-actions/git-cliff/commit/d66d8046a53c845c343dad611eee919aa86e3d6d))  - (jackton1)
 - Update README.md ([0282187](https://github.com/tj-actions/git-cliff/commit/028218727125c8bd5101deeaf158a131b0175e24))  - (Tonye Jack)
 - Update README.md ([045e031](https://github.com/tj-actions/git-cliff/commit/045e031ab99e28226367751b12d93a8e438e110a))  - (Tonye Jack)
 
@@ -121,8 +217,7 @@ Co-authored-by: jackton1 <17484350+jackton1@users.noreply.github.com> ([75599f7]
 
 ## <!-- 9 -->⬆️ Upgrades
 
-- Upgraded from v1.3.0 -> v1.4.0
- ([65f2aa5](https://github.com/tj-actions/git-cliff/commit/65f2aa5495e63855d29cefbc918321c38d263b5b))  - (jackton1)
+- Upgraded from v1.3.0 -> v1.4.0 ([65f2aa5](https://github.com/tj-actions/git-cliff/commit/65f2aa5495e63855d29cefbc918321c38d263b5b))  - (jackton1)
 
 # [1.4.0](https://github.com/tj-actions/git-cliff/compare/v1.3.0...v1.4.0) - (2023-04-03)
 
@@ -132,8 +227,7 @@ Co-authored-by: jackton1 <17484350+jackton1@users.noreply.github.com> ([75599f7]
 
 ## <!-- 26 -->🔄 Update
 
-- Updated README.md
- ([417bfa7](https://github.com/tj-actions/git-cliff/commit/417bfa7e3bb8f9273c5e26cc96d18ae2f9b7457e))  - (repo-ranger[bot])
+- Updated README.md ([417bfa7](https://github.com/tj-actions/git-cliff/commit/417bfa7e3bb8f9273c5e26cc96d18ae2f9b7457e))  - (repo-ranger[bot])
 - Update entrypoint.sh ([619dd2d](https://github.com/tj-actions/git-cliff/commit/619dd2da98f75c2d4607ba0faa6c9879639fff7c))  - (Tonye Jack)
 - Update test.yml ([22febaf](https://github.com/tj-actions/git-cliff/commit/22febafe374bc6202f87fe17631ffa962afd7f56))  - (Tonye Jack)
 - Update entrypoint.sh ([f7c3f5b](https://github.com/tj-actions/git-cliff/commit/f7c3f5b9d1123c0c375864b8dfac6b28a4dacc50))  - (Tonye Jack)
@@ -155,8 +249,7 @@ Co-authored-by: jackton1 <17484350+jackton1@users.noreply.github.com> ([75599f7]
 
 ## <!-- 9 -->⬆️ Upgrades
 
-- Upgraded from v1.2.4 -> v1.3.0
- ([af5e3c3](https://github.com/tj-actions/git-cliff/commit/af5e3c37410e3adeb2fd711d25d1f0f3b9684acf))  - (jackton1)
+- Upgraded from v1.2.4 -> v1.3.0 ([af5e3c3](https://github.com/tj-actions/git-cliff/commit/af5e3c37410e3adeb2fd711d25d1f0f3b9684acf))  - (jackton1)
 
 # [1.3.0](https://github.com/tj-actions/git-cliff/compare/v1.2.4...v1.3.0) - (2023-04-01)
 
@@ -171,8 +264,7 @@ Co-authored-by: jackton1 <17484350+jackton1@users.noreply.github.com> ([75599f7]
 
 ## <!-- 9 -->⬆️ Upgrades
 
-- Upgraded from v1.2.3 -> v1.2.4
- ([9de9f40](https://github.com/tj-actions/git-cliff/commit/9de9f4018521f2bd3d995693a48a61098a334a0b))  - (jackton1)
+- Upgraded from v1.2.3 -> v1.2.4 ([9de9f40](https://github.com/tj-actions/git-cliff/commit/9de9f4018521f2bd3d995693a48a61098a334a0b))  - (jackton1)
 
 # [1.2.4](https://github.com/tj-actions/git-cliff/compare/v1.2.3...v1.2.4) - (2023-04-01)
 
@@ -186,8 +278,7 @@ Co-authored-by: jackton1 <17484350+jackton1@users.noreply.github.com> ([75599f7]
 
 ## <!-- 9 -->⬆️ Upgrades
 
-- Upgraded from v1.2.2 -> v1.2.3
- ([a651804](https://github.com/tj-actions/git-cliff/commit/a651804bb184a46d3ed6878b8800624a99838f86))  - (jackton1)
+- Upgraded from v1.2.2 -> v1.2.3 ([a651804](https://github.com/tj-actions/git-cliff/commit/a651804bb184a46d3ed6878b8800624a99838f86))  - (jackton1)
 
 # [1.2.3](https://github.com/tj-actions/git-cliff/compare/v1.2.2...v1.2.3) - (2023-04-01)
 
@@ -201,8 +292,7 @@ Co-authored-by: jackton1 <17484350+jackton1@users.noreply.github.com> ([75599f7]
 
 ## <!-- 9 -->⬆️ Upgrades
 
-- Upgraded from v1.2.1 -> v1.2.2
- ([976d3be](https://github.com/tj-actions/git-cliff/commit/976d3beb637bbbdb4f8625699df871e8600a91f6))  - (jackton1)
+- Upgraded from v1.2.1 -> v1.2.2 ([976d3be](https://github.com/tj-actions/git-cliff/commit/976d3beb637bbbdb4f8625699df871e8600a91f6))  - (jackton1)
 
 # [1.2.2](https://github.com/tj-actions/git-cliff/compare/v1.2.1...v1.2.2) - (2023-04-01)
 
@@ -216,8 +306,7 @@ Co-authored-by: jackton1 <17484350+jackton1@users.noreply.github.com> ([75599f7]
 
 ## <!-- 9 -->⬆️ Upgrades
 
-- Upgraded from v1.2.0 -> v1.2.1
- ([4e62f10](https://github.com/tj-actions/git-cliff/commit/4e62f100a9554b3cbfbf6f2e1e41f49c0b0021f5))  - (jackton1)
+- Upgraded from v1.2.0 -> v1.2.1 ([4e62f10](https://github.com/tj-actions/git-cliff/commit/4e62f100a9554b3cbfbf6f2e1e41f49c0b0021f5))  - (jackton1)
 
 # [1.2.1](https://github.com/tj-actions/git-cliff/compare/v1.2.0...v1.2.1) - (2023-04-01)
 
@@ -237,8 +326,7 @@ Co-authored-by: jackton1 <17484350+jackton1@users.noreply.github.com> ([75599f7]
 
 ## <!-- 26 -->🔄 Update
 
-- Updated README.md
- ([dfac656](https://github.com/tj-actions/git-cliff/commit/dfac6569f8dfb8d4918102e5859e69aa3fda2068))  - (repo-ranger[bot])
+- Updated README.md ([dfac656](https://github.com/tj-actions/git-cliff/commit/dfac6569f8dfb8d4918102e5859e69aa3fda2068))  - (repo-ranger[bot])
 
 ## <!-- 3 -->📚 Documentation
 
@@ -255,8 +343,7 @@ Co-authored-by: jackton1 <17484350+jackton1@users.noreply.github.com> ([75599f7]
 
 ## <!-- 9 -->⬆️ Upgrades
 
-- Upgraded from v1.0.3 -> v1.1.0
- ([e82a450](https://github.com/tj-actions/git-cliff/commit/e82a450437b4d85013bfd5889a6d64273dea8c96))  - (jackton1)
+- Upgraded from v1.0.3 -> v1.1.0 ([e82a450](https://github.com/tj-actions/git-cliff/commit/e82a450437b4d85013bfd5889a6d64273dea8c96))  - (jackton1)
 
 # [1.1.0](https://github.com/tj-actions/git-cliff/compare/v1.0.3...v1.1.0) - (2023-04-01)
 
@@ -277,8 +364,7 @@ Co-authored-by: jackton1 <17484350+jackton1@users.noreply.github.com> ([75599f7]
 
 ## <!-- 9 -->⬆️ Upgrades
 
-- Upgraded from v1.0.2 -> v1.0.3
- ([db7b192](https://github.com/tj-actions/git-cliff/commit/db7b192a2edacac6e21cfe204f7ab8c38f00d513))  - (jackton1)
+- Upgraded from v1.0.2 -> v1.0.3 ([db7b192](https://github.com/tj-actions/git-cliff/commit/db7b192a2edacac6e21cfe204f7ab8c38f00d513))  - (jackton1)
 
 # [1.0.3](https://github.com/tj-actions/git-cliff/compare/v1.0.2...v1.0.3) - (2023-03-31)
 
@@ -293,8 +379,7 @@ Co-authored-by: jackton1 <17484350+jackton1@users.noreply.github.com> ([75599f7]
 
 ## <!-- 9 -->⬆️ Upgrades
 
-- Upgraded from v1.0.1 -> v1.0.2
- ([d53dcb8](https://github.com/tj-actions/git-cliff/commit/d53dcb8618e9727b09c6957f343384041ebaa801))  - (jackton1)
+- Upgraded from v1.0.1 -> v1.0.2 ([d53dcb8](https://github.com/tj-actions/git-cliff/commit/d53dcb8618e9727b09c6957f343384041ebaa801))  - (jackton1)
 
 # [1.0.2](https://github.com/tj-actions/git-cliff/compare/v1.0.1...v1.0.2) - (2023-03-31)
 
@@ -319,8 +404,7 @@ Co-authored-by: jackton1 <17484350+jackton1@users.noreply.github.com> ([75599f7]
 
 ## <!-- 9 -->⬆️ Upgrades
 
-- Upgraded from v1.0.0 -> v1.0.1
- ([4651066](https://github.com/tj-actions/git-cliff/commit/4651066a8e8e30a6d6265797148573c0ec75d374))  - (jackton1)
+- Upgraded from v1.0.0 -> v1.0.1 ([4651066](https://github.com/tj-actions/git-cliff/commit/4651066a8e8e30a6d6265797148573c0ec75d374))  - (jackton1)
 
 # [1.0.1](https://github.com/tj-actions/git-cliff/compare/v1.0.0...v1.0.1) - (2023-03-31)
 
@@ -344,8 +428,7 @@ Co-authored-by: jackton1 <17484350+jackton1@users.noreply.github.com> ([75599f7]
 
 ## <!-- 9 -->⬆️ Upgrades
 
-- Upgraded from v1.0.0 -> v1.0.0
- ([1933bc1](https://github.com/tj-actions/git-cliff/commit/1933bc1a98cea5e4e2d7b28d97df477fc832ee46))  - (jackton1)
+- Upgraded from v1.0.0 -> v1.0.0 ([1933bc1](https://github.com/tj-actions/git-cliff/commit/1933bc1a98cea5e4e2d7b28d97df477fc832ee46))  - (jackton1)
 
 # [1.0.0](https://github.com/tj-actions/git-cliff/tree/v1.0.0) - (2023-03-31)
 
@@ -384,12 +467,10 @@ Signed-off-by: dependabot[bot] <support@github.com> ([7fd6cc5](https://github.co
 - Update HISTORY.md ([96e1441](https://github.com/tj-actions/git-cliff/commit/96e14417691d6223f958e514c880db397174ba9f))  - (Tonye Jack)
 - Update sync-release-version.yml ([2e3b6b2](https://github.com/tj-actions/git-cliff/commit/2e3b6b20ffd46807d68667e7ba5444573bb35c58))  - (Tonye Jack)
 - Update test.yml ([728a074](https://github.com/tj-actions/git-cliff/commit/728a074581224c68f1c94eaa83800bbd4d3aa7e3))  - (Tonye Jack)
+- Updated README.md ([a82ccab](https://github.com/tj-actions/git-cliff/commit/a82ccab90634f99e476316020bd8af9bdbd51ca2))  - (jackton1)
 - Update test.yml ([8483e36](https://github.com/tj-actions/git-cliff/commit/8483e3660abc7235fb3c3799873fe180e411d6f4))  - (Tonye Jack)
-- Updated README.md
- ([a82ccab](https://github.com/tj-actions/git-cliff/commit/a82ccab90634f99e476316020bd8af9bdbd51ca2))  - (jackton1)
+- Updated README.md ([59b09db](https://github.com/tj-actions/git-cliff/commit/59b09db18c8ef19ecd410b8fd015dd939b2549af))  - (jackton1)
 - Update test.yml ([485fdb6](https://github.com/tj-actions/git-cliff/commit/485fdb635565f0f72372c522abbd2d350fa6a755))  - (Tonye Jack)
-- Updated README.md
- ([59b09db](https://github.com/tj-actions/git-cliff/commit/59b09db18c8ef19ecd410b8fd015dd939b2549af))  - (jackton1)
 - Update README.md ([12b7209](https://github.com/tj-actions/git-cliff/commit/12b7209e4921d13cf63970efc446fa89bdbe8aa8))  - (Tonye Jack)
 - Update README.md ([ed37e25](https://github.com/tj-actions/git-cliff/commit/ed37e254dbe9474655dd518984cc790a4d494701))  - (Tonye Jack)
 - Update test.yml ([fc7d6f7](https://github.com/tj-actions/git-cliff/commit/fc7d6f7a73792dba87858a41a541d531b17b1ed6))  - (Tonye Jack)
@@ -397,8 +478,7 @@ Signed-off-by: dependabot[bot] <support@github.com> ([7fd6cc5](https://github.co
 - Update entrypoint.sh ([45af158](https://github.com/tj-actions/git-cliff/commit/45af158ff44588dafb01ff64c64d551063512857))  - (Tonye Jack)
 - Update entrypoint.sh ([1f6ac81](https://github.com/tj-actions/git-cliff/commit/1f6ac812a54eea0338b585ad5699cb80f164e281))  - (Tonye Jack)
 - Update test.yml ([88b34ea](https://github.com/tj-actions/git-cliff/commit/88b34eac5c95624f4fe1ca4b31dffe1764bba265))  - (Tonye Jack)
-- Updated README.md
- ([be4f983](https://github.com/tj-actions/git-cliff/commit/be4f9832fec95700a83f30be69ca31791ae14a1e))  - (jackton1)
+- Updated README.md ([be4f983](https://github.com/tj-actions/git-cliff/commit/be4f9832fec95700a83f30be69ca31791ae14a1e))  - (jackton1)
 - Update action.yml ([e96f3bc](https://github.com/tj-actions/git-cliff/commit/e96f3bcaa156f229f3cb17e292a9c8cfe3980d98))  - (Tonye Jack)
 - Update action.yml ([c695cb8](https://github.com/tj-actions/git-cliff/commit/c695cb896d9e2c053a585f275a108d00a1214fb5))  - (Tonye Jack)
 - Update cliff-template.toml ([ab99767](https://github.com/tj-actions/git-cliff/commit/ab9976730fccb7afdb3ac0e82b7c027758767bbb))  - (Tonye Jack)

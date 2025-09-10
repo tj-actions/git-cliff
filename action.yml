@@ -16,7 +16,11 @@ inputs:
   git-cliff-version:
     description: "Provide the version for git-cliff"
     required: false
-    default: "v2.5.0"
+    default: "v2.10.0"
+  token:
+    description: 'GITHUB_TOKEN or a Repo scoped PAT'
+    required: false
+    default: ${{ github.token }}
 
 runs:
   using: 'composite'
@@ -31,14 +35,23 @@ runs:
         INPUT_REPOSITORY_URL: ${{ github.server_url }}/${{ github.repository }}
         INPUT_TEMPLATE_CONFIG: ${{ inputs.template-config }}
 
-    - name: Generate a changelog
-      uses: orhun/git-cliff-action@v4
+    - name: Install git-cliff
+      id: install-git-cliff
+      uses: tj-actions/setup-bin@v1.2.3
       with:
-        config: ${{ steps.git-cliff.outputs.output_path }}
-        args: ${{ inputs.args }}
+        token: ${{ inputs.token }}
+        repository-owner: orhun
+        repository: git-cliff
+        language-type: rust
+        add-prefix-to-version: false
         version: ${{ inputs.git-cliff-version }}
-      env:
-        OUTPUT: ${{ inputs.output }}
+
+    - name: Generate a changelog
+      shell: bash
+      run: |
+        ${{ steps.install-git-cliff.outputs.binary_path }} --config "${{ steps.git-cliff.outputs.output_path }}" \
+          --output "${{ inputs.output }}" \
+          ${{ inputs.args }}
         
     - name: Cleanup
       shell: bash

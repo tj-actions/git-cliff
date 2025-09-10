@@ -34,18 +34,43 @@ Generate changelogs for your project with a generated cliff.toml from [`cliff-te
         with:
           fetch-depth: 0
       - name: Run git-cliff
-        uses: tj-actions/git-cliff@v1
+        uses: tj-actions/git-cliff@8bfb7bf10268aed30bde8e34ecaeddb6c6149edd # v2
 ```
 
 ## Inputs
 
 <!-- AUTO-DOC-INPUT:START - Do not remove or modify this section -->
 
-|                                     INPUT                                     |  TYPE  | REQUIRED |    DEFAULT     |                                                                                             DESCRIPTION                                                                                              |
-|-------------------------------------------------------------------------------|--------|----------|----------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|                 <a name="input_args"></a>[args](#input_args)                  | string |  false   | `"--verbose"`  |                                              Extra args passed directly to <br>[git-cliff](https://github.com/orhun/git-cliff#command-line-arguments)                                                |
-|              <a name="input_output"></a>[output](#input_output)               | string |  false   | `"HISTORY.md"` |                                                                                             Output file                                                                                              |
-| <a name="input_template-config"></a>[template-config](#input_template-config) | string |  false   |                | Path or URL to the <br>template `cliff.toml` config file. See <br>[`cliff-template.toml`](./cliff-template.toml) for a working example. <br>**NOTE:** Only the `REPOSITORY_URL` is <br>substituted.  |
+```yaml
+- uses: tj-actions/git-cliff@8bfb7bf10268aed30bde8e34ecaeddb6c6149edd # v2
+  id: git-cliff
+  with:
+    # Extra args passed directly to 
+    # [git-cliff](https://github.com/orhun/git-cliff#command-line-arguments) 
+    # Type: string
+    # Default: "--verbose"
+    args: ''
+
+    # Output file
+    # Type: string
+    # Default: "HISTORY.md"
+    output: ''
+
+    # Path or URL to the 
+    # template `cliff.toml` config file. See 
+    # [`cliff-template.toml`](./cliff-template.toml) for a working example. 
+    # **NOTE:** Only the `REPOSITORY_URL` is 
+    # substituted. 
+    # Type: string
+    template-config: ''
+
+    # GITHUB_TOKEN or a Repo scoped 
+    # PAT 
+    # Type: string
+    # Default: "${{ github.token }}"
+    token: ''
+
+```
 
 <!-- AUTO-DOC-INPUT:END -->
 
@@ -64,7 +89,6 @@ If you feel generous and want to show some extra appreciation:
 This package was created with [Cookiecutter](https://github.com/cookiecutter/cookiecutter) using [cookiecutter-action](https://github.com/tj-actions/cookiecutter-action)
 
 *   [git-cliff](https://github.com/orhun/git-cliff)
-*   [git-cliff-action](https://github.com/orhun/git-cliff-action)
 
 ## Report Bugs
 
