@@ -1,5 +1,23 @@
 # Changelog
 
+# [2.2.0](https://github.com/tj-actions/git-cliff/compare/v2.1.0...v2.2.0) - (2025-09-10)
+
+## <!-- 0 -->🚀 Features
+
+- Add support for specifying the git-cliff version ([#71](https://github.com/tj-actions/git-cliff/issues/71)) ([8a4a27a](https://github.com/tj-actions/git-cliff/commit/8a4a27ad2805463bad73aa1fd70541c5ebadcb21))  - (Tonye Jack)
+
+## <!-- 26 -->🔄 Update
+
+- Updated README.md ([#84](https://github.com/tj-actions/git-cliff/issues/84))
+
+Co-authored-by: github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com> ([679041f](https://github.com/tj-actions/git-cliff/commit/679041f051a4d2ab452f7e5e7b0eed2abee21131))  - (github-actions[bot])
+
+## <!-- 9 -->⬆️ Upgrades
+
+- Upgraded from v2.0.2 -> v2.1.0 ([#83](https://github.com/tj-actions/git-cliff/issues/83))
+
+Co-authored-by: github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com> ([8fc5813](https://github.com/tj-actions/git-cliff/commit/8fc5813a82286e8d68fcd2bc145560e87075d489))  - (github-actions[bot])
+
 # [2.1.0](https://github.com/tj-actions/git-cliff/compare/v2.0.2...v2.1.0) - (2025-08-14)
 
 ## <!-- 0 -->🚀 Features
